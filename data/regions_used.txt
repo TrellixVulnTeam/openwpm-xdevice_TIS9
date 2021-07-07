@@ -1,0 +1,7 @@
+us-central-1a
+us-east-4c
+us-west-2
+us-east-1
+
+
+us-west-1
