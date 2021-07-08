@@ -1,7 +1,0 @@
-/event.gif?
-&advid=$~image
-=728x90&
-=160x600&
-=300x250&
-/adserver.$~xmlhttprequest
-/adiframe/*
