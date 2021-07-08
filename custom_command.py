@@ -33,7 +33,7 @@ from adblockparser import AdblockRules
 
 st = time.time()
 raw_rules = []
-with open("data/easylist.txt","r") as file:
+with open("datadir/easylist.txt","r") as file:
 	lines = file.readlines()
 	for line in lines:
 		raw_rules.append(line.strip("\n"))
