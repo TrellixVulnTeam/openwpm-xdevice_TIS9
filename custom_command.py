@@ -483,7 +483,7 @@ def RTB_imgs(path,file_name,site):
 		print()
 #		req = urllib.request.Request(site,data=None, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'})
 #		page=urllib.request.urlopen(req)
-		urllib.request.urlretrieve(site,path+"/{}.png".format(file_name.replace("data/Phase1/","")))
+		urllib.request.urlretrieve(site,path+"/{}.png".format(file_name.replace("datadir/","")))
 #		with open(path+"/{}.png".format(file_name),'wb') as f:
 #			f.write(page.read())
 	except Exception as e:

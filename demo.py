@@ -29,8 +29,8 @@ def loadjson(path):
 
 
 config_path  = sys.argv[1] ## Config File Path
-mode         = sys.argv[2] ## Flag for Mode ## 1 is ad collection 2 is persona without intent 3 in persona with intent
-
+mode         = sys.argv[2] ## Flag for Mode ## 1 is Desktop 2 is Mobile
+proxy        = sys.argv[3] ## Flag for proxy on or off
 
 data = loadjson(config_path)
 NUM_BROWSERS = data["Number_of_Browsers"]
@@ -60,8 +60,8 @@ manager_params.data_directory = Path("./{}".format(pname))
 #manager_params.log_path = Path("/opt/openwpm.log")
 manager_params.log_path = Path("./{}/openwpm.log".format(pname))
 
-browser_params.profile_archive_dir = Path("./{}".format(pname))
-browser_params.seed_tar = Path("./{}/profile.tar.gz".format(pname))
+browser_params.profile_archive_dir = Path("./datadir")
+browser_params.seed_tar = Path("./datadir/profile.tar.gz")
 browser_params.dns_instrument = True
 browser_params.callstack_instrument = True
 browser_params.js_instrument = True
@@ -72,7 +72,7 @@ browser_params.bot_mitigation = True
 browser_params.custom_params["mode"] = mode
 browser_params.custom_params["path"] = str(browser_params.profile_archive_dir)
 
-if browser_params.custom_params["Intent"] == "NoIntent":
+if not int(proxy)
     browser_params.custom_params["ip"] = None
     
 path = browser_params.profile_archive_dir
@@ -121,6 +121,7 @@ if(mode == '1'):
 
             #Evidence
             command_sequence.append_command(SaveScreenshotCommand(suffix=str(index)),timeout=100)
+            
             # Scroll up
             command_sequence.append_command(ScrollUp(), timeout=300)
             
@@ -167,8 +168,3 @@ if(mode == '2'):
             command_sequence.append_command(GetHBAds(n = index), timeout=600)
             
             manager.execute_command_sequence(command_sequence)
-
-# Commands time out by default after 60 seconds
-if(mode == '3'):
-    # Get RTB Ad
-    GetRTBAds().execute(None,browser_params[0],None,-1)
