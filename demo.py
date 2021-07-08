@@ -86,6 +86,9 @@ if((not os.path.exists(os.path.join(path,"profile.tar.gz")))):
 
 browser_params = [browser_params]
 
+print(browser_params[0])
+exit()
+
 if(mode == '1'):
 # Commands time out by default after 60 seconds
     with TaskManager(

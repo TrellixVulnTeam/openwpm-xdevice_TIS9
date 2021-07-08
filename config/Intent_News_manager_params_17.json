@@ -1,9 +1,0 @@
-{
-  "data_directory": "/home/maaz/openwpm",
-  "log_path": "/home/maaz/openwpm/openwpm.log",
-  "testing": false,
-  "memory_watchdog": false,
-  "process_watchdog": false,
-  "num_browsers": 1,
-  "_failure_limit": null
-}
