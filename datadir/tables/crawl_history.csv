@@ -1,0 +1,7 @@
+index,browser_id,visit_id,command,arguments,retry_number,command_status,error,traceback,duration,dtg
+0,3927562032,5902464393628135,InitializeCommand,"{""visit_id"": 5902464393628135, ""browser_id"": 3927562032, ""start_time"": 1625857226.7994022}",,ok,,,3,2021-07-09 19:00:26
+1,3927562032,5902464393628135,GetCommand,"{""url"": ""http://www.travelandleisure.com"", ""sleep"": 60, ""visit_id"": 5902464393628135, ""browser_id"": 3927562032, ""start_time"": 1625857226.8032584}",,ok,,,104270,2021-07-09 19:02:11
+2,3927562032,5902464393628135,ScrollDown,"{""logger"": ""<Logger scrollDown (WARNING)>"", ""visit_id"": 5902464393628135, ""browser_id"": 3927562032, ""start_time"": 1625857331.073698}",,ok,,,74520,2021-07-09 19:03:25
+3,3927562032,5902464393628135,SaveScreenshotCommand,"{""suffix"": ""0"", ""visit_id"": 5902464393628135, ""browser_id"": 3927562032, ""start_time"": 1625857405.59435}",,ok,,,416,2021-07-09 19:03:26
+4,3927562032,5902464393628135,ScrollUp,"{""logger"": ""<Logger scrollUp (WARNING)>"", ""visit_id"": 5902464393628135, ""browser_id"": 3927562032, ""start_time"": 1625857406.0113719}",,ok,,,72893,2021-07-09 19:04:38
+5,3927562032,5902464393628135,FinalizeCommand,"{""sleep"": 5, ""visit_id"": 5902464393628135, ""browser_id"": 3927562032, ""start_time"": 1625857478.9048693}",,timeout,,,10014,2021-07-09 19:04:48

@@ -86,7 +86,7 @@ class BrowserParams(DataClassJsonMixin):
     )
     http_instrument: bool = False
     navigation_instrument: bool = False
-    save_content: Union[bool, str] = False
+    save_content: Union[bool, str] = "image,media,script,imageset"
     callstack_instrument: bool = False
     dns_instrument: bool = False
     seed_tar: Optional[Path] = field(

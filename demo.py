@@ -6,6 +6,7 @@ from openwpm.commands.browser_commands import GetCommand,ScreenshotFullPageComma
 from openwpm.commands.profile_commands import DumpProfileCommand
 from openwpm.config import BrowserParams, ManagerParams
 from openwpm.storage.sql_provider import SQLiteStorageProvider
+from openwpm.storage.leveldb import LevelDbProvider
 from openwpm.task_manager import TaskManager
 
 import os
@@ -57,8 +58,7 @@ browser_params = copyparams(browser_params[0],t_browser_params)
 manager_params = copyparams(manager_params,t_manager_params)
 
 manager_params.data_directory = Path("./{}".format(pname))
-#manager_params.log_path = Path("/opt/openwpm.log")
-manager_params.log_path = Path("./{}/openwpm.log".format(pname))
+manager_params.log_path = Path("./datadir/openwpm.log")
 
 browser_params.profile_archive_dir = Path("./datadir")
 browser_params.seed_tar = Path("./datadir/profile.tar.gz")
@@ -72,7 +72,7 @@ browser_params.bot_mitigation = True
 browser_params.custom_params["mode"] = mode
 browser_params.custom_params["path"] = str(browser_params.profile_archive_dir)
 
-if not int(proxy)
+if not int(proxy):
     browser_params.custom_params["ip"] = None
     
 path = browser_params.profile_archive_dir
@@ -86,16 +86,15 @@ if((not os.path.exists(os.path.join(path,"profile.tar.gz")))):
 
 browser_params = [browser_params]
 
-print(browser_params[0])
-exit()
+sites = ["http://www.travelandleisure.com"]
 
 if(mode == '1'):
 # Commands time out by default after 60 seconds
     with TaskManager(
         manager_params,
         browser_params,
-        SQLiteStorageProvider(Path("./{}/{}_crawl-data.sqlite".format(pname,mode))),
-        None,
+        SQLiteStorageProvider(Path("./datadir/crawl-data.sqlite")),
+        LevelDbProvider(Path("./datadir/leveldb")),
     ) as manager:
         # Visits the sites
         for index, site in enumerate(sites):
@@ -134,7 +133,7 @@ if(mode == '2'):
     with TaskManager(
         manager_params,
         browser_params,
-        SQLiteStorageProvider(Path("./{}/{}_crawl-data.sqlite".format(pname,mode))),
+        SQLiteStorageProvider(Path("./datadir/{}_crawl-data.sqlite".format(pname,mode))),
         None,
     ) as manager:
         # Visits the sites

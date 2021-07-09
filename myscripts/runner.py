@@ -8,7 +8,7 @@ import subprocess
 
 os.chdir("..")
 
-cmd = ['python','demo.py','config/browser_params.json','1']
+cmd = ['python','demo.py','config/browser_params.json','1','0']
 process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 try:
     oput,err = process.communicate(timeout=15000)
@@ -29,13 +29,15 @@ with open('../datadir/errors1.txt','w') as file:
 
 
 ################ Sleep 2 Hours  ###################
+exit()
+print("Marinating Profile")
 time.sleep(60*60*2)
 
 ################ Mobile Version ###################
 
 os.chdir("..")
 
-cmd = ['python','demo.py','config/browser_params.json','2']
+cmd = ['python','demo.py','config/browser_params.json','2','0']
 process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 try:
     oput,err = process.communicate(timeout=15000)
