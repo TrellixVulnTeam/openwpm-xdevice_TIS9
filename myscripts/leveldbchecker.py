@@ -1,13 +1,22 @@
 import plyvel
-import leveldb
 
-db  = plyvel.DB('../datadir/leveldb')
-dbb = leveldb.LevelDB('../datadir/leveldb')
-img = db.get(b'8337212354871836e6763a41e615916c89bac5b3f1f0adf60ba43c7c806e1015')
-img1= dbb.Get(b'8337212354871836e6763a41e615916c89bac5b3f1f0adf60ba43c7c806e1015')
-img_bytes = img1.decode()
+db  = plyvel.DB('./leveldb')
 
-with open("check.png","wb") as file:
-	file.write(img_bytes)
+hashes = []
+with open("Hashes.txt","r") as file:
+	lines = file.readlines()
+	for line in lines:
+		hashes.append(line.strip('\n'))
+
+
+for index,item in enumerate(hashes):
+	img = db.get(str.encode(item))
+
+	print(str.encode(item))
+	print(img)
+
+	with open("{}check.png".format(str(index)),"wb") as file:
+		file.write(img)
+
 
 db.close()
