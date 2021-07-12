@@ -57,7 +57,7 @@ browser_params = [BrowserParams(display_mode="headless") for _ in range(NUM_BROW
 browser_params = copyparams(browser_params[0],t_browser_params)
 manager_params = copyparams(manager_params,t_manager_params)
 
-manager_params.data_directory = Path("./{}".format(pname))
+manager_params.data_directory = Path("./datadir/")
 manager_params.log_path = Path("./datadir/openwpm.log")
 
 browser_params.profile_archive_dir = Path("./datadir")
@@ -72,6 +72,11 @@ browser_params.bot_mitigation = True
 browser_params.custom_params["mode"] = mode
 browser_params.custom_params["path"] = str(browser_params.profile_archive_dir)
 
+if mode == '1':
+    browser_params.save_content = False
+else:
+    browser_params.custom_params['mobile'] = True
+    
 if not int(proxy):
     browser_params.custom_params["ip"] = None
     
@@ -86,15 +91,13 @@ if((not os.path.exists(os.path.join(path,"profile.tar.gz")))):
 
 browser_params = [browser_params]
 
-sites = ["http://www.travelandleisure.com"]
-
 if(mode == '1'):
 # Commands time out by default after 60 seconds
     with TaskManager(
         manager_params,
         browser_params,
-        SQLiteStorageProvider(Path("./datadir/crawl-data.sqlite")),
-        LevelDbProvider(Path("./datadir/leveldb")),
+        SQLiteStorageProvider(Path("./datadir/1crawl-data.sqlite")),
+        None,
     ) as manager:
         # Visits the sites
         for index, site in enumerate(sites):
@@ -133,8 +136,8 @@ if(mode == '2'):
     with TaskManager(
         manager_params,
         browser_params,
-        SQLiteStorageProvider(Path("./datadir/{}_crawl-data.sqlite".format(pname,mode))),
-        None,
+        SQLiteStorageProvider(Path("./datadir/2crawl-data.sqlite")),
+        LevelDbProvider(Path("./datadir/leveldb")),
     ) as manager:
         # Visits the sites
         for index, site in enumerate(Ad_Sites):
