@@ -71,6 +71,7 @@ browser_params.http_instrument = True
 browser_params.bot_mitigation = True
 browser_params.custom_params["mode"] = mode
 browser_params.custom_params["path"] = str(browser_params.profile_archive_dir)
+browser_params.custom_params['mobile'] = False
 
 if mode == '1':
     browser_params.save_content = False
