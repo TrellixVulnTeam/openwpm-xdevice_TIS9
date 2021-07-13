@@ -30,6 +30,7 @@ with open('../datadir/errors1.txt','w') as file:
 
 ################ Sleep 2 Hours  ###################
 print("Marinating Profile")
+exit()
 time.sleep(60*60*2)
 
 ################ Mobile Version ###################
