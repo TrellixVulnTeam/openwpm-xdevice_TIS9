@@ -1,3 +1,5 @@
 firefox-bin/
 config/
 myscripts/tmpenv
+datadir/
+run1_datadir/

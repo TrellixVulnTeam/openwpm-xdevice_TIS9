@@ -17,7 +17,7 @@ from ..utilities.platform_utils import get_firefox_binary_path
 from . import configure_firefox
 from .selenium_firefox import FirefoxBinary, FirefoxLogInterceptor, Options
 
-DEFAULT_SCREEN_RES = (375, 667)
+
 logger = logging.getLogger("openwpm")
 
 
@@ -30,6 +30,10 @@ def deploy_firefox(
     """
     launches a firefox instance with parameters set by the input dictionary
     """
+    DEFAULT_SCREEN_RES = (1024, 800)
+    if browser_params.custom_params['mobile']:
+        DEFAULT_SCREEN_RES = (375, 667)
+
     firefox_binary_path = get_firefox_binary_path()
 
     root_dir = os.path.dirname(__file__)  # directory of this file
@@ -144,6 +148,7 @@ def deploy_firefox(
     if browser_params.custom_params['mobile']:
         prefs = mobile_prefs(prefs)
         prefs["general.useragent.override"] = "Mozilla/5.0 (Android 11; Mobile; rv:68.0) Gecko/68.0 Firefox/89.0"
+        
 
     # Intercept logging at the Selenium level and redirect it to the
     # main logger.
@@ -186,7 +191,7 @@ def deploy_firefox(
         )
 
     # set window size
-    driver.set_window_size(*DEFAULT_SCREEN_RES)
+    driver.set_window_size(DEFAULT_SCREEN_RES[0],DEFAULT_SCREEN_RES[1])
 
     # Get browser process pid
     if hasattr(driver, "service") and hasattr(driver.service, "process"):
