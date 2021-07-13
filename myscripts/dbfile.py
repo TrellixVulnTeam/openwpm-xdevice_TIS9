@@ -4,11 +4,11 @@ import os
 import pandas as pd
 
 def to_csv(path):
-	if(os.path.exists(path+'/crawl-data.sqlite') == False):
+	if(os.path.exists(path+'/2crawl-data.sqlite') == False):
 		return -1
 	if(os.path.exists(path+'/tables') == False):
 		os.mkdir(path+'/tables')
-	db = sqlite3.connect(path+'/crawl-data.sqlite')
+	db = sqlite3.connect(path+'/2crawl-data.sqlite')
 	cursor = db.cursor()
 	cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
 	tables = cursor.fetchall()
@@ -20,4 +20,4 @@ def to_csv(path):
 	db.close()
 	return 1
 
-to_csv("../datadir")
+to_csv("../run1_datadir")
