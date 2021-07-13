@@ -20,4 +20,4 @@ def to_csv(path):
 	db.close()
 	return 1
 
-to_csv("../run1_datadir")
+to_csv("../tables/run1")
