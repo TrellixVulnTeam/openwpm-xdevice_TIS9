@@ -167,17 +167,46 @@ def deploy_firefox(
     # Write all preferences to the profile's user.js file
     configure_firefox.save_prefs_to_profile(prefs, browser_profile_path)
 
-    # Launch the webdriver
-    status_queue.put(("STATUS", "Launch Attempted", None))
-    fb = FirefoxBinary(firefox_path=firefox_binary_path)
-    driver = webdriver.Firefox(
-        firefox_binary=fb,
-        options=fo,
-        log_path=interceptor.fifo,
-        # TODO: See https://github.com/mozilla/OpenWPM/issues/867 for
-        # when to remove this
-        service_args=["--marionette-port", str(marionette_port)],
-    )
+
+    # Add Proxy if needed
+    proxy = browser_params.custom_params['ip']
+    print("Browser IP: {}".format(proxy))
+    if proxy != None:
+        
+        firefox_capabilities = webdriver.DesiredCapabilities.FIREFOX
+        firefox_capabilities['marionette'] = True
+
+        firefox_capabilities['proxy'] = {
+            "proxyType":"manual",
+            "httpProxy":proxy,
+            "ftpProxy":proxy,
+            "sslProxy":proxy,
+        }
+
+        # Launch the webdriver
+        status_queue.put(("STATUS", "Launch Attempted", None))
+        fb = FirefoxBinary(firefox_path=firefox_binary_path)
+        driver = webdriver.Firefox(
+            firefox_binary=fb,
+            options=fo,
+            log_path=interceptor.fifo,
+            capabilities=firefox_capabilities,
+            # TODO: See https://github.com/mozilla/OpenWPM/issues/867 for
+            # when to remove this
+            service_args=["--marionette-port", str(marionette_port)],
+        )
+    else:
+        # Launch the webdriver
+        status_queue.put(("STATUS", "Launch Attempted", None))
+        fb = FirefoxBinary(firefox_path=firefox_binary_path)
+        driver = webdriver.Firefox(
+            firefox_binary=fb,
+            options=fo,
+            log_path=interceptor.fifo,
+            # TODO: See https://github.com/mozilla/OpenWPM/issues/867 for
+            # when to remove this
+            service_args=["--marionette-port", str(marionette_port)],
+        )
 
     # Add extension
     if browser_params.extension_enabled:

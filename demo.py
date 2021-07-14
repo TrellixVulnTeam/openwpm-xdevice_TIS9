@@ -72,6 +72,7 @@ browser_params.bot_mitigation = True
 browser_params.custom_params["mode"] = mode
 browser_params.custom_params["path"] = str(browser_params.profile_archive_dir)
 browser_params.custom_params['mobile'] = False
+browser_params.custom_params['ip']     = "104.155.145.220:8888"
 
 if mode == '1':
     browser_params.save_content = False
