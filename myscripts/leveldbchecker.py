@@ -1,6 +1,6 @@
 import plyvel
 
-db  = plyvel.DB("./leveldb")
+db  = plyvel.DB("../data/run2/leveldb")
 
 hashes = []
 with open("../tables/run2/tables/Hashes.txt","r") as file:
