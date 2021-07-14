@@ -5,3 +5,4 @@ datadir/1crawl-data.sqlite
 datadir/openwpm.log
 datadir/profile.tar.gz
 run1_datadir/
+plyvelenv/
