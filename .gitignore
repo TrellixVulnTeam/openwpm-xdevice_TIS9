@@ -1,5 +1,7 @@
 firefox-bin/
 config/
 myscripts/tmpenv
-datadir/
+datadir/1crawl-data.sqlite
+datadir/openwpm.log
+datadir/profile.tar.gz
 run1_datadir/

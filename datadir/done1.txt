@@ -1,0 +1,526 @@
+browser_manager      - INFO     - BROWSER 1305170838: Launching browser...
+storage_controller   - INFO     - Awaiting all tasks for visit_id -1
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+task_manager         - INFO     - 
+
+OpenWPM Version: b'3e13a05'
+Firefox Version: b'89.0'
+
+========== Manager Configuration ==========
+{
+  "_failure_limit": null,
+  "data_directory": "/home/maaz/Desktop/openwpm-xdevice/datadir",
+  "log_path": "/home/maaz/Desktop/openwpm-xdevice/datadir/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    40895
+  ],
+  "memory_watchdog": false,
+  "num_browsers": 1,
+  "process_watchdog": false,
+  "screenshot_path": "/home/maaz/Desktop/openwpm-xdevice/datadir/screenshots",
+  "source_dump_path": "/home/maaz/Desktop/openwpm-xdevice/datadir/sources",
+  "storage_controller_address": [
+    "127.0.0.1",
+    37789
+  ],
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "browser_id": 0,
+  "bot_mitigation": 1,
+  "browser": 2,
+  "callstack_instrument": 3,
+  "cookie_instrument": 4,
+  "custom_params": 5,
+  "display_mode": 6,
+  "dns_instrument": 7,
+  "donottrack": 8,
+  "extension_enabled": 9,
+  "http_instrument": 10,
+  "js_instrument": 11,
+  "js_instrument_settings": 12,
+  "navigation_instrument": 13,
+  "prefs": 14,
+  "profile_path": 15,
+  "recovery_tar": 16,
+  "save_content": 17,
+  "tp_cookies": 18,
+  "tracking_protection": 19
+}
+
+         0  1     2        3     4     5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               6         7     8      9     10    11    12                             13    14    15    16    17     18      19
+----------  ----  -------  ----  ----  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  ----  -----  ----  ----  ----  -----------------------------  ----  ----  ----  ----  -----  ------  -----
+1305170838  True  firefox  True  True  {'Persona_Path': 'data/personas', 'profile_tar': './datadir', 'Persona_Name': 'Travel.json', 'Persona_Numb': 1, 'Browser_Config': 'config/browser_params.json', 'Manager_Config': 'config/manager_params.json', 'Browser_Config_Def': 'default_browser_params.json', 'Manager_Config_Def': 'default_manager_params.json', 'Number_of_Browsers': 1, 'Sites': ['booking.com/hotel/nl/victoria.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=eb07483dd84a7ce441055f4cd0f084c6f4e30eaaX5;type=total;ucfs=1&', 'booking.com/hotel/nl/hotelnewamsterdam.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=eb07483dd84a7ce441055f4cd0f084c6f4e30eaaX6;type=total;ucfs=1&', 'booking.com/hotel/fr/pullman-paris-bercy.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=f579801f63522bc31f66af6adf32952e00d2d14cX1;type=total;ucfs=1&', 'booking.com/hotel/fr/collectionneur-arc-de-triomphe.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=f579801f63522bc31f66af6adf32952e00d2d14cX2;type=total;ucfs=1&', 'booking.com/hotel/us/bridgestreet-at-state-and-grand.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=277550520f349cd5c87f161c30a0c0e97c1e6894X1;type=total;ucfs=1&', 'booking.com/hotel/us/sheraton-chicago-towers.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=277550520f349cd5c87f161c30a0c0e97c1e6894X2;type=total;ucfs=1&', 'booking.com/hotel/za/radisson-blu-le-vendome-cape-town1.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;no_rooms=1;room1=A%2CA;sb_price_type=total;srfid=7061731108689b52e589323d9818d4f9f37c2777X1;type=total;ucfs=1&', 'booking.com/hotel/za/southern-sun-the-cullinan.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;no_rooms=1;room1=A%2CA;sb_price_type=total;srfid=7061731108689b52e589323d9818d4f9f37c2777X2;type=total;ucfs=1&', 'booking.com/hotel/br/great-apartments-2016-event.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=0ab772cb239c5a7b43feaa3ccd0792b31625a490X1;type=total;ucfs=1&', 'booking.com/hotel/br/windsor-miramar.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=0ab772cb239c5a7b43feaa3ccd0792b31625a490X2;type=total;ucfs=1&', 'tripadvisor.com/Hotel_Review-g188590-d229495-Reviews-Marriott_Amsterdam-Amsterdam_North_Holland_Province.html', 'tripadvisor.com/Hotel_Review-g188590-d230616-Reviews-Banks_Mansion-Amsterdam_North_Holland_Province.html', 'tripadvisor.com/Hotel_Review-g187147-d7645653-Reviews-Hotel_Ekta-Paris_Ile_de_France.html', 'tripadvisor.com/Hotel_Review-g187147-d4800782-Reviews-Le_123_Sebastopol_Astotel-Paris_Ile_de_France.html', 'tripadvisor.com/Hotel_Review-g35805-d90766-Reviews-Courtyard_Chicago_Midway_Airport-Chicago_Illinois.html', 'tripadvisor.com/Hotel_Review-g35805-d111486-Reviews-Hampton_Inn_Suites_Chicago_Downtown-Chicago_Illinois.html', 'tripadvisor.com/Hotel_Review-g312659-d309134-Reviews-Southern_Sun_The_Cullinan-Cape_Town_Central_Western_Cape.html', 'tripadvisor.com/Hotel_Review-g312659-d305780-Reviews-Victoria_Alfred_Hotel-Cape_Town_Central_Western_Cape.html', 'tripadvisor.com/Hotel_Review-g303506-d304506-Reviews-Sheraton_Grand_Rio_Hotel_Resort-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html', 'tripadvisor.com/Hotel_Review-g303506-d301412-Reviews-Windsor_Atlantica_Hotel-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html', 'hotels.com/hotel/details.html?FPQ=6&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=9&q-localised-check-in=12/16/15&hotel-id=420261&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'hotels.com/hotel/details.html?FPQ=3&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=7&q-localised-check-in=12/16/15&hotel-id=127286&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=182441&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=535062&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=106418&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'hotels.com/hotel/details.html?FPQ=3&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=7&q-localised-check-in=12/16/15&hotel-id=112294&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=5&q-localised-check-in=12/16/15&hotel-id=138331&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=174316&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'hotels.com/hotel/details.html?FPQ=3&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=9&q-localised-check-in=12/16/15&hotel-id=174180&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=537390&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3', 'expedia.com/Amsterdam-Hotels-Amsterdam-Teleport-Hotel.h11572822.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188383070&c=d3166cf8-5525-4ba5-9c8f-42393d37ed60&', 'expedia.com/Amsterdam-Hotels-Steigenberger-Airport-Hotel-Amsterdam.h909903.Hotel-Information?chkin=12/16/2015&chkout=12/24/2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188383070&c=d3166cf8-5525-4ba5-9c8f-42393d37ed60&', 'expedia.com/Paris-Hotels-Mercure-Paris-Porte-De-St-Cloud.h433418.Hotel-Information?chkin=12/16/2015&chkout=12/24/2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188396747&c=ab9a5bb4-3132-44b4-a498-a4d32c41dceb&', 'expedia.com/Paris-Hotels-Novotel-Paris-La-Defense.h13034.Hotel-Information?chkin=12/16/2015&chkout=12/24/2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188396747&c=ab9a5bb4-3132-44b4-a498-a4d32c41dceb&', 'expedia.com/Chicago-Hotels-The-Whitehall-Hotel.h17903.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188409117&c=7e5c1f01-70d5-4b13-b4c6-f4c1f1590f5c&', 'expedia.com/Chicago-Hotels-W-Chicago-Lakeshore.h1346.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188409117&c=7e5c1f01-70d5-4b13-b4c6-f4c1f1590f5c&', 'expedia.com/Cape-Town-Hotels-The-Table-Bay-Hotel.h375613.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188431293&c=52f4774e-f281-4cbc-9292-5920bc66d67b&', 'expedia.com/Cape-Town-Hotels-Townhouse-Hotel.h573971.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188431293&c=52f4774e-f281-4cbc-9292-5920bc66d67b&', 'expedia.com/Rio-De-Janeiro-Hotels-Caesar-Park-Rio-De-Janeiro-Ipanema-Managed-By-Sofitel.h443313.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188443572&c=695f680f-caaf-4080-878f-e117c4aebdee&', 'expedia.com/Rio-De-Janeiro-Hotels-TuAkAzA-Exclusive-Lodge-Boutique-Hotel.h6456532.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188443572&c=695f680f-caaf-4080-878f-e117c4aebdee&'], 'Storage_File': 'storage.js', 'ublock_origin': False, 'Ad_Sites': ['ncl.com', 'travelandleisure.com', 'traveltrivia.com', 'traveltriviamail.com', 'thecrazytourist.com'], 'Intent': 'Intent', 'Intent_Sites': ['https://www.cheapfareguru.com/book/show.php?s=622b03d7430aae9a&e=145a25135dfa6034', 'https://www.google.com/travel/flights/search?tfs=CBwQAhoqagwIAhIIL20vMHQwbjUSCjIwMjEtMDQtMjJyDggDEgovbS8wMzBxYjN0GipqDggDEgovbS8wMzBxYjN0EgoyMDIxLTA0LTI2cgwIAhIIL20vMHQwbjVwAYIBCwj___________8BQAFIAZgBAQ'], 'save_all_content': False, 'ip': None, 'mode': '1', 'path': 'datadir', 'mobile': False}  headless  True  False  True  True  True  ['collection_fingerprinting']  True  {}                False  always  False
+
+========== JS Instrument Settings ==========
+{"1305170838":[{"object":"window['ScriptProcessorNode'].prototype","instrumentedName":"ScriptProcessorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['GainNode'].prototype","instrumentedName":"GainNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AnalyserNode'].prototype","instrumentedName":"AnalyserNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OscillatorNode'].prototype","instrumentedName":"OscillatorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OfflineAudioContext'].prototype","instrumentedName":"OfflineAudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AudioContext'].prototype","instrumentedName":"AudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['RTCPeerConnection'].prototype","instrumentedName":"RTCPeerConnection","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['HTMLCanvasElement'].prototype","instrumentedName":"HTMLCanvasElement","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['Storage'].prototype","instrumentedName":"Storage","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.navigator","instrumentedName":"window.navigator","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['CanvasRenderingContext2D'].prototype","instrumentedName":"CanvasRenderingContext2D","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":["transform","closePath","setTransform","translate","quadraticCurveTo","moveTo","globalAlpha","drawImage","clearRect","beginPath","lineTo","canvas"],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window","instrumentedName":"window","logSettings":{"propertiesToInstrument":["localStorage","name","sessionStorage"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.document","instrumentedName":"window.document","logSettings":{"propertiesToInstrument":["referrer","cookie"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":true,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.screen","instrumentedName":"window.screen","logSettings":{"propertiesToInstrument":["colorDepth","pixelDepth"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}}]}
+
+========== Input profile tar files ==========
+  No profile tar files specified
+
+========== Output (archive) profile dirs ==========
+{
+  "1305170838": "/home/maaz/Desktop/openwpm-xdevice/datadir"
+}
+
+
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 6913053929377153 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/nl/victoria.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=eb07483dd84a7ce441055f4cd0f084c6f4e30eaaX5;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(0)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 6913053929377153 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 6913053929377153
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4094622341498056 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/nl/hotelnewamsterdam.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=eb07483dd84a7ce441055f4cd0f084c6f4e30eaaX6;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(1)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.booking.com/hotel/nl/victoria.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=eb07483dd84a7ce441055f4cd0f084c6f4e30eaaX5;type=total;ucfs=1& ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4094622341498056 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 4094622341498056
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5501249906418476 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/fr/pullman-paris-bercy.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=f579801f63522bc31f66af6adf32952e00d2d14cX1;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(2)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.booking.com/hotel/nl/hotelnewamsterdam.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=eb07483dd84a7ce441055f4cd0f084c6f4e30eaaX6;type=total;ucfs=1& ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5501249906418476 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 5501249906418476
+CommandSequence for http://www.booking.com/hotel/fr/pullman-paris-bercy.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=f579801f63522bc31f66af6adf32952e00d2d14cX1;type=total;ucfs=1& ran successfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 6208401464560839 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/fr/collectionneur-arc-de-triomphe.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=f579801f63522bc31f66af6adf32952e00d2d14cX2;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(3)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 6208401464560839 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 6208401464560839
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7065969844246995 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/us/bridgestreet-at-state-and-grand.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=277550520f349cd5c87f161c30a0c0e97c1e6894X1;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(4)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.booking.com/hotel/fr/collectionneur-arc-de-triomphe.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=f579801f63522bc31f66af6adf32952e00d2d14cX2;type=total;ucfs=1& ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7065969844246995 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7065969844246995
+CommandSequence for http://www.booking.com/hotel/us/bridgestreet-at-state-and-grand.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=277550520f349cd5c87f161c30a0c0e97c1e6894X1;type=total;ucfs=1& ran successfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4228772975526793 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/us/sheraton-chicago-towers.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=277550520f349cd5c87f161c30a0c0e97c1e6894X2;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(5)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - BROWSER 1305170838: Timeout while executing command, FinalizeCommand(5), killing browser manager
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4228772975526793 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 4228772975526793
+sql_provider         - WARNING  - Visit with visit_id 4228772975526793 got interrupted
+CommandSequence for http://www.booking.com/hotel/us/sheraton-chicago-towers.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=277550520f349cd5c87f161c30a0c0e97c1e6894X2;type=total;ucfs=1& ran unsuccessfully
+browser_manager      - INFO     - BROWSER 1305170838: BrowserManager restart initiated. Clear profile? False
+storage_controller   - ERROR    - There are no records to be stored for visit_id 4228772975526793, skipping...
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+browser_manager      - INFO     - BROWSER 1305170838: Launching browser...
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 3870131147941289 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/za/radisson-blu-le-vendome-cape-town1.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;no_rooms=1;room1=A%2CA;sb_price_type=total;srfid=7061731108689b52e589323d9818d4f9f37c2777X1;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(6)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 3870131147941289 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 3870131147941289
+CommandSequence for http://www.booking.com/hotel/za/radisson-blu-le-vendome-cape-town1.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;no_rooms=1;room1=A%2CA;sb_price_type=total;srfid=7061731108689b52e589323d9818d4f9f37c2777X1;type=total;ucfs=1& ran successfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2785300289714960 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/za/southern-sun-the-cullinan.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;no_rooms=1;room1=A%2CA;sb_price_type=total;srfid=7061731108689b52e589323d9818d4f9f37c2777X2;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(7)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - BROWSER 1305170838: Timeout while executing command, FinalizeCommand(5), killing browser manager
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2785300289714960
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2785300289714960 on browser with id 1305170838
+sql_provider         - WARNING  - Visit with visit_id 2785300289714960 got interrupted
+storage_controller   - ERROR    - There are no records to be stored for visit_id 2785300289714960, skipping...
+browser_manager      - INFO     - BROWSER 1305170838: BrowserManager restart initiated. Clear profile? False
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+CommandSequence for http://www.booking.com/hotel/za/southern-sun-the-cullinan.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;no_rooms=1;room1=A%2CA;sb_price_type=total;srfid=7061731108689b52e589323d9818d4f9f37c2777X2;type=total;ucfs=1& ran unsuccessfully
+browser_manager      - INFO     - BROWSER 1305170838: Launching browser...
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7240606719742681 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/br/great-apartments-2016-event.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=0ab772cb239c5a7b43feaa3ccd0792b31625a490X1;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(8)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7240606719742681 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7240606719742681
+CommandSequence for http://www.booking.com/hotel/br/great-apartments-2016-event.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=0ab772cb239c5a7b43feaa3ccd0792b31625a490X1;type=total;ucfs=1& ran successfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 6190292245339538 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.booking.com/hotel/br/windsor-miramar.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=0ab772cb239c5a7b43feaa3ccd0792b31625a490X2;type=total;ucfs=1&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(9)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 6190292245339538 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 6190292245339538
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 1997124420156231 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g188590-d229495-Reviews-Marriott_Amsterdam-Amsterdam_North_Holland_Province.html,60)
+CommandSequence for http://www.booking.com/hotel/br/windsor-miramar.html?label=gen173nr-15CAEoggJCAlhYSDNiBW5vcmVmcgV1c19tYYgBAZgBMbgBBMgBBNgBA-gBAfgBAg;sid=05d9e9c444c19f08c494a56e5b70b13e;dcid=1;checkin=2015-12-16;checkout=2015-12-24;dist=0;group_adults=2;room1=A%2CA;sb_price_type=total;srfid=0ab772cb239c5a7b43feaa3ccd0792b31625a490X2;type=total;ucfs=1& ran successfully
+browser_manager      - INFO     - BROWSER 1305170838: Timeout while executing command, GetCommand(http://www.tripadvisor.com/Hotel_Review-g188590-d229495-Reviews-Marriott_Amsterdam-Amsterdam_North_Holland_Province.html,60), killing browser manager
+storage_controller   - INFO     - Awaiting all tasks for visit_id 1997124420156231
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 1997124420156231 on browser with id 1305170838
+sql_provider         - WARNING  - Visit with visit_id 1997124420156231 got interrupted
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g188590-d229495-Reviews-Marriott_Amsterdam-Amsterdam_North_Holland_Province.html ran unsuccessfully
+browser_manager      - INFO     - BROWSER 1305170838: BrowserManager restart initiated. Clear profile? False
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+browser_manager      - INFO     - BROWSER 1305170838: Launching browser...
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2065656994358385 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g188590-d230616-Reviews-Banks_Mansion-Amsterdam_North_Holland_Province.html,60)
+browser_manager      - INFO     - BROWSER 1305170838: Timeout while executing command, GetCommand(http://www.tripadvisor.com/Hotel_Review-g188590-d230616-Reviews-Banks_Mansion-Amsterdam_North_Holland_Province.html,60), killing browser manager
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2065656994358385
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2065656994358385 on browser with id 1305170838
+sql_provider         - WARNING  - Visit with visit_id 2065656994358385 got interrupted
+browser_manager      - INFO     - BROWSER 1305170838: BrowserManager restart initiated. Clear profile? False
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g188590-d230616-Reviews-Banks_Mansion-Amsterdam_North_Holland_Province.html ran unsuccessfully
+browser_manager      - INFO     - BROWSER 1305170838: Launching browser...
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2545866673227981 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g187147-d7645653-Reviews-Hotel_Ekta-Paris_Ile_de_France.html,60)
+browser_manager      - INFO     - BROWSER 1305170838: Timeout while executing command, GetCommand(http://www.tripadvisor.com/Hotel_Review-g187147-d7645653-Reviews-Hotel_Ekta-Paris_Ile_de_France.html,60), killing browser manager
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2545866673227981
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2545866673227981 on browser with id 1305170838
+sql_provider         - WARNING  - Visit with visit_id 2545866673227981 got interrupted
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g187147-d7645653-Reviews-Hotel_Ekta-Paris_Ile_de_France.html ran unsuccessfully
+browser_manager      - INFO     - BROWSER 1305170838: BrowserManager restart initiated. Clear profile? False
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+browser_manager      - INFO     - BROWSER 1305170838: Launching browser...
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4191475568047919 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g187147-d4800782-Reviews-Le_123_Sebastopol_Astotel-Paris_Ile_de_France.html,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(13)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4191475568047919 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 4191475568047919
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7504746334298624 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g35805-d90766-Reviews-Courtyard_Chicago_Midway_Airport-Chicago_Illinois.html,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(14)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g187147-d4800782-Reviews-Le_123_Sebastopol_Astotel-Paris_Ile_de_France.html ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7504746334298624 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7504746334298624
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4213589208951001 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g35805-d111486-Reviews-Hampton_Inn_Suites_Chicago_Downtown-Chicago_Illinois.html,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(15)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g35805-d90766-Reviews-Courtyard_Chicago_Midway_Airport-Chicago_Illinois.html ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4213589208951001 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 4213589208951001
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 53103341333217 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g312659-d309134-Reviews-Southern_Sun_The_Cullinan-Cape_Town_Central_Western_Cape.html,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(16)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g35805-d111486-Reviews-Hampton_Inn_Suites_Chicago_Downtown-Chicago_Illinois.html ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 53103341333217 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 53103341333217
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 947916985537012 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g312659-d305780-Reviews-Victoria_Alfred_Hotel-Cape_Town_Central_Western_Cape.html,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(17)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g312659-d309134-Reviews-Southern_Sun_The_Cullinan-Cape_Town_Central_Western_Cape.html ran successfully
+browser_manager      - INFO     - BROWSER 1305170838: Timeout while executing command, FinalizeCommand(5), killing browser manager
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 947916985537012 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 947916985537012
+sql_provider         - WARNING  - Visit with visit_id 947916985537012 got interrupted
+storage_controller   - ERROR    - There are no records to be stored for visit_id 947916985537012, skipping...
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g312659-d305780-Reviews-Victoria_Alfred_Hotel-Cape_Town_Central_Western_Cape.html ran unsuccessfully
+browser_manager      - INFO     - BROWSER 1305170838: BrowserManager restart initiated. Clear profile? False
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+browser_manager      - INFO     - BROWSER 1305170838: Launching browser...
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5182293025330034 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g303506-d304506-Reviews-Sheraton_Grand_Rio_Hotel_Resort-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(18)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5182293025330034 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 5182293025330034
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7504691379529796 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.tripadvisor.com/Hotel_Review-g303506-d301412-Reviews-Windsor_Atlantica_Hotel-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(19)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g303506-d304506-Reviews-Sheraton_Grand_Rio_Hotel_Resort-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7504691379529796 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7504691379529796
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 56322003186717 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=6&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=9&q-localised-check-in=12/16/15&hotel-id=420261&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(20)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.tripadvisor.com/Hotel_Review-g303506-d301412-Reviews-Windsor_Atlantica_Hotel-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 56322003186717 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 56322003186717
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2830109031091679 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=3&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=7&q-localised-check-in=12/16/15&hotel-id=127286&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(21)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=6&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=9&q-localised-check-in=12/16/15&hotel-id=420261&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2830109031091679 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2830109031091679
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 314372941716894 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=182441&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(22)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=3&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=7&q-localised-check-in=12/16/15&hotel-id=127286&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 314372941716894 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 314372941716894
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7812775962854533 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=535062&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(23)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=182441&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7812775962854533 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7812775962854533
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7683221867525838 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=106418&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(24)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=535062&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7683221867525838 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7683221867525838
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2244403639297784 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=3&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=7&q-localised-check-in=12/16/15&hotel-id=112294&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(25)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=106418&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2244403639297784 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2244403639297784
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 3920161599819557 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=5&q-localised-check-in=12/16/15&hotel-id=138331&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(26)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=3&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=7&q-localised-check-in=12/16/15&hotel-id=112294&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 3920161599819557 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 3920161599819557
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2652054646869922 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=174316&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(27)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=5&q-localised-check-in=12/16/15&hotel-id=138331&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2652054646869922 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2652054646869922
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=174316&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 650353182860652 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=3&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=9&q-localised-check-in=12/16/15&hotel-id=174180&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(28)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 650353182860652 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 650353182860652
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2460872263255625 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=537390&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(29)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=3&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=1&tab=description&JHR=9&q-localised-check-in=12/16/15&hotel-id=174180&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2460872263255625 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2460872263255625
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 348247168666016 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Amsterdam-Hotels-Amsterdam-Teleport-Hotel.h11572822.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188383070&c=d3166cf8-5525-4ba5-9c8f-42393d37ed60&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(30)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.hotels.com/hotel/details.html?FPQ=2&WOE=4&q-localised-check-out=12/24/15&WOD=3&q-room-0-children=0&pa=2&tab=description&JHR=6&q-localised-check-in=12/16/15&hotel-id=537390&q-room-0-adults=2&YGF=14&MGT=7&ZSX=0&SYE=3 ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 348247168666016 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 348247168666016
+CommandSequence for http://www.expedia.com/Amsterdam-Hotels-Amsterdam-Teleport-Hotel.h11572822.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188383070&c=d3166cf8-5525-4ba5-9c8f-42393d37ed60& ran successfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2507976284564001 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Amsterdam-Hotels-Steigenberger-Airport-Hotel-Amsterdam.h909903.Hotel-Information?chkin=12/16/2015&chkout=12/24/2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188383070&c=d3166cf8-5525-4ba5-9c8f-42393d37ed60&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(31)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2507976284564001 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2507976284564001
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 6334713845551935 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Paris-Hotels-Mercure-Paris-Porte-De-St-Cloud.h433418.Hotel-Information?chkin=12/16/2015&chkout=12/24/2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188396747&c=ab9a5bb4-3132-44b4-a498-a4d32c41dceb&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(32)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.expedia.com/Amsterdam-Hotels-Steigenberger-Airport-Hotel-Amsterdam.h909903.Hotel-Information?chkin=12/16/2015&chkout=12/24/2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188383070&c=d3166cf8-5525-4ba5-9c8f-42393d37ed60& ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 6334713845551935 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 6334713845551935
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2546313721991260 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Paris-Hotels-Novotel-Paris-La-Defense.h13034.Hotel-Information?chkin=12/16/2015&chkout=12/24/2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188396747&c=ab9a5bb4-3132-44b4-a498-a4d32c41dceb&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(33)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.expedia.com/Paris-Hotels-Mercure-Paris-Porte-De-St-Cloud.h433418.Hotel-Information?chkin=12/16/2015&chkout=12/24/2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188396747&c=ab9a5bb4-3132-44b4-a498-a4d32c41dceb& ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2546313721991260 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2546313721991260
+CommandSequence for http://www.expedia.com/Paris-Hotels-Novotel-Paris-La-Defense.h13034.Hotel-Information?chkin=12/16/2015&chkout=12/24/2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188396747&c=ab9a5bb4-3132-44b4-a498-a4d32c41dceb& ran successfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7531879725689083 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Chicago-Hotels-The-Whitehall-Hotel.h17903.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188409117&c=7e5c1f01-70d5-4b13-b4c6-f4c1f1590f5c&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(34)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7531879725689083 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7531879725689083
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 8159716429122161 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Chicago-Hotels-W-Chicago-Lakeshore.h1346.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188409117&c=7e5c1f01-70d5-4b13-b4c6-f4c1f1590f5c&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(35)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.expedia.com/Chicago-Hotels-The-Whitehall-Hotel.h17903.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188409117&c=7e5c1f01-70d5-4b13-b4c6-f4c1f1590f5c& ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 8159716429122161 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 8159716429122161
+CommandSequence for http://www.expedia.com/Chicago-Hotels-W-Chicago-Lakeshore.h1346.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188409117&c=7e5c1f01-70d5-4b13-b4c6-f4c1f1590f5c& ran successfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2756398300310972 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Cape-Town-Hotels-The-Table-Bay-Hotel.h375613.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188431293&c=52f4774e-f281-4cbc-9292-5920bc66d67b&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(36)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2756398300310972 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2756398300310972
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4745045999664886 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Cape-Town-Hotels-Townhouse-Hotel.h573971.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188431293&c=52f4774e-f281-4cbc-9292-5920bc66d67b&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(37)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.expedia.com/Cape-Town-Hotels-The-Table-Bay-Hotel.h375613.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188431293&c=52f4774e-f281-4cbc-9292-5920bc66d67b& ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4745045999664886 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 4745045999664886
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7694149648092764 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Rio-De-Janeiro-Hotels-Caesar-Park-Rio-De-Janeiro-Ipanema-Managed-By-Sofitel.h443313.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188443572&c=695f680f-caaf-4080-878f-e117c4aebdee&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(38)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.expedia.com/Cape-Town-Hotels-Townhouse-Hotel.h573971.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188431293&c=52f4774e-f281-4cbc-9292-5920bc66d67b& ran successfully
+browser_manager      - INFO     - BROWSER 1305170838: Timeout while executing command, FinalizeCommand(5), killing browser manager
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7694149648092764
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7694149648092764 on browser with id 1305170838
+sql_provider         - WARNING  - Visit with visit_id 7694149648092764 got interrupted
+browser_manager      - INFO     - BROWSER 1305170838: BrowserManager restart initiated. Clear profile? False
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7694149648092764
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+CommandSequence for http://www.expedia.com/Rio-De-Janeiro-Hotels-Caesar-Park-Rio-De-Janeiro-Ipanema-Managed-By-Sofitel.h443313.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188443572&c=695f680f-caaf-4080-878f-e117c4aebdee& ran unsuccessfully
+browser_manager      - INFO     - BROWSER 1305170838: Launching browser...
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2499453291930585 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.expedia.com/Rio-De-Janeiro-Hotels-TuAkAzA-Exclusive-Lodge-Boutique-Hotel.h6456532.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188443572&c=695f680f-caaf-4080-878f-e117c4aebdee&,60)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: SaveScreenshotCommand(39)
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2499453291930585 on browser with id 1305170838
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2499453291930585
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2259021803491336 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.https://www.cheapfareguru.com/book/show.php?s=622b03d7430aae9a&e=145a25135dfa6034,60)
+browser_manager      - INFO     - BROWSER 1305170838: Received neterror dnsNotFound while executing command: GetCommand(http://www.https://www.cheapfareguru.com/book/show.php?s=622b03d7430aae9a&e=145a25135dfa6034,60)
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2259021803491336
+sql_provider         - WARNING  - Visit with visit_id 2259021803491336 got interrupted
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2259021803491336 on browser with id 1305170838
+CommandSequence for http://www.expedia.com/Rio-De-Janeiro-Hotels-TuAkAzA-Exclusive-Lodge-Boutique-Hotel.h6456532.Hotel-Information?chkin=12%2F16%2F2015&chkout=12%2F24%2F2015&rm1=a2&hwrqCacheKey=a64ed73f-5bb2-460f-a740-bd608f4e9bccHWRQ1447188443572&c=695f680f-caaf-4080-878f-e117c4aebdee& ran successfully
+CommandSequence for http://www.https://www.cheapfareguru.com/book/show.php?s=622b03d7430aae9a&e=145a25135dfa6034 ran unsuccessfully
+browser_manager      - INFO     - BROWSER 1305170838: BrowserManager restart initiated. Clear profile? False
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+browser_manager      - INFO     - BROWSER 1305170838: Launching browser...
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 3253797112512798 on browser with id 1305170838
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 1305170838: EXECUTING COMMAND: GetCommand(http://www.https://www.google.com/travel/flights/search?tfs=CBwQAhoqagwIAhIIL20vMHQwbjUSCjIwMjEtMDQtMjJyDggDEgovbS8wMzBxYjN0GipqDggDEgovbS8wMzBxYjN0EgoyMDIxLTA0LTI2cgwIAhIIL20vMHQwbjVwAYIBCwj___________8BQAFIAZgBAQ,60)
+browser_manager      - INFO     - BROWSER 1305170838: Received neterror dnsNotFound while executing command: GetCommand(http://www.https://www.google.com/travel/flights/search?tfs=CBwQAhoqagwIAhIIL20vMHQwbjUSCjIwMjEtMDQtMjJyDggDEgovbS8wMzBxYjN0GipqDggDEgovbS8wMzBxYjN0EgoyMDIxLTA0LTI2cgwIAhIIL20vMHQwbjVwAYIBCwj___________8BQAFIAZgBAQ,60)
+storage_controller   - INFO     - Awaiting all tasks for visit_id 3253797112512798
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 3253797112512798 on browser with id 1305170838
+sql_provider         - WARNING  - Visit with visit_id 3253797112512798 got interrupted
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+storage_controller   - INFO     - Received shutdown signal!
+storage_controller   - INFO     - Awaiting all tasks for visit_id 1997124420156231
+sql_provider         - WARNING  - Visit with visit_id 1997124420156231 got interrupted
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2065656994358385
+sql_provider         - WARNING  - Visit with visit_id 2065656994358385 got interrupted
+storage_controller   - INFO     - Awaiting all tasks for visit_id 2545866673227981
+sql_provider         - WARNING  - Visit with visit_id 2545866673227981 got interrupted
+CommandSequence for http://www.https://www.google.com/travel/flights/search?tfs=CBwQAhoqagwIAhIIL20vMHQwbjUSCjIwMjEtMDQtMjJyDggDEgovbS8wMzBxYjN0GipqDggDEgovbS8wMzBxYjN0EgoyMDIxLTA0LTI2cgwIAhIIL20vMHQwbjVwAYIBCwj___________8BQAFIAZgBAQ ran unsuccessfully
+Shutdown took 1769.658029794693 seconds
