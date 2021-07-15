@@ -1,5 +1,4 @@
 firefox-bin/
-config/
 myscripts/tmpenv
 datadir/1crawl-data.sqlite
 datadir/openwpm.log

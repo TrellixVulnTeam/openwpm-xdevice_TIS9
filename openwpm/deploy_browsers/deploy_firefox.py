@@ -17,6 +17,7 @@ from ..utilities.platform_utils import get_firefox_binary_path
 from . import configure_firefox
 from .selenium_firefox import FirefoxBinary, FirefoxLogInterceptor, Options
 
+from selenium.webdriver.common.proxy import Proxy, ProxyType
 
 logger = logging.getLogger("openwpm")
 
@@ -30,7 +31,7 @@ def deploy_firefox(
     """
     launches a firefox instance with parameters set by the input dictionary
     """
-    DEFAULT_SCREEN_RES = (1024, 800)
+    DEFAULT_SCREEN_RES = (1024, 900)
     if browser_params.custom_params['mobile']:
         DEFAULT_SCREEN_RES = (375, 667)
 
@@ -163,6 +164,15 @@ def deploy_firefox(
             % (browser_params.browser_id, name, value)
         )
         prefs[name] = value
+
+
+    prefs["network.proxy.type"] = 1
+    prefs["network.proxy.http"] = "104.155.145.220"
+    prefs["network.proxy.http_port"] = 8888
+    prefs["network.proxy.ftp"] = "104.155.145.220"
+    prefs["network.proxy.ftp_port"] = 8888
+    prefs["network.proxy.ssl"] = "104.155.145.220"
+    prefs["network.proxy.ssl_port"] = 8888
 
     # Write all preferences to the profile's user.js file
     configure_firefox.save_prefs_to_profile(prefs, browser_profile_path)

@@ -35,7 +35,7 @@ proxy        = sys.argv[3] ## Flag for proxy on or off
 
 data = loadjson(config_path)
 NUM_BROWSERS = data["Number_of_Browsers"]
-sites        = data["Sites"] + data["Intent_Sites"]
+sites        = data["Sites"]
 Ad_Sites     = data["Ad_Sites"]
 pname        = data["profile_archive_dir"]
 temp = []
@@ -52,7 +52,7 @@ t_manager_params = loadjson(data['Manager_Config'])
 t_browser_params = loadjson(data['Browser_Config'])
 
 manager_params = ManagerParams(num_browsers=NUM_BROWSERS)
-browser_params = [BrowserParams(display_mode="headless") for _ in range(NUM_BROWSERS)]
+browser_params = [BrowserParams(display_mode="native") for _ in range(NUM_BROWSERS)]
 
 browser_params = copyparams(browser_params[0],t_browser_params)
 manager_params = copyparams(manager_params,t_manager_params)
@@ -73,13 +73,14 @@ browser_params.custom_params["mode"] = mode
 browser_params.custom_params["path"] = str(browser_params.profile_archive_dir)
 browser_params.custom_params['mobile'] = False
 browser_params.custom_params['ip']     = "104.155.145.220:8888"
-
+browser_params.custom_params["ip"] = None
 if mode == '1':
     browser_params.save_content = False
 else:
     browser_params.custom_params['mobile'] = True
     
 if not int(proxy):
+    print("No Proxy")
     browser_params.custom_params["ip"] = None
     
 path = browser_params.profile_archive_dir
@@ -92,6 +93,7 @@ if((not os.path.exists(os.path.join(path,"profile.tar.gz")))):
 # manager_params.process_watchdog = True
 
 browser_params = [browser_params]
+#sites = ["https://whatsmyip.com/"] + sites
 
 if(mode == '1'):
 # Commands time out by default after 60 seconds
@@ -117,7 +119,7 @@ if(mode == '1'):
             )
 
             # Start by visiting the page
-            command_sequence.append_command(GetCommand(url=site, sleep=60), timeout=300)
+            command_sequence.append_command(GetCommand(url=site, sleep=30), timeout=300)
 
 
             # Scroll down
