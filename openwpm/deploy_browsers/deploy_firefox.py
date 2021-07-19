@@ -31,7 +31,7 @@ def deploy_firefox(
     """
     launches a firefox instance with parameters set by the input dictionary
     """
-    DEFAULT_SCREEN_RES = (1024, 900)
+    DEFAULT_SCREEN_RES = (1224, 1000)
     if browser_params.custom_params['mobile']:
         DEFAULT_SCREEN_RES = (375, 667)
 

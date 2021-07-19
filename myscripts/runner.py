@@ -30,17 +30,15 @@ with open('../datadir/errors1.txt','w') as file:
 
 ################ Sleep 2 Hours  ###################
 print("Marinating Profile")
-exit()
 time.sleep(60*60*2)
 
 ################ Mobile Version ###################
 
-os.chdir("../..")
-sudopass = "chill"
+sudopass = "C.ROnaldo123"
 os.system('echo {} | sudo -S ./fontchanger.sh'.format(sudopass))
-os.chdir("openwpm-xdevice")
+os.chdir("..")
 
-cmd = ['python','demo.py','config/browser_params.json','2','0']
+cmd = ['python','demo.py','config/browser_params.json','2','1']
 process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 try:
     oput,err = process.communicate(timeout=15000)

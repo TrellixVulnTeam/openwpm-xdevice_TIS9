@@ -52,7 +52,7 @@ t_manager_params = loadjson(data['Manager_Config'])
 t_browser_params = loadjson(data['Browser_Config'])
 
 manager_params = ManagerParams(num_browsers=NUM_BROWSERS)
-browser_params = [BrowserParams(display_mode="native") for _ in range(NUM_BROWSERS)]
+browser_params = [BrowserParams(display_mode="headless") for _ in range(NUM_BROWSERS)]
 
 browser_params = copyparams(browser_params[0],t_browser_params)
 manager_params = copyparams(manager_params,t_manager_params)
@@ -159,7 +159,7 @@ if(mode == '2'):
             )
 
             # Start by visiting the page
-            command_sequence.append_command(GetCommand(url=site, sleep=60), timeout=600)
+            command_sequence.append_command(GetCommand(url=site, sleep=30), timeout=600)
 
             # Scroll down
             command_sequence.append_command(ScrollDown(), timeout=300)

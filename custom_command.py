@@ -84,7 +84,7 @@ class ScrollUp(BaseCommand):
         
 def scroll(driver,direction):
         
-    SCROLL_PAUSE_TIME = 3
+    SCROLL_PAUSE_TIME = 1
     SCROLL_COUNT      = 0
     
 
