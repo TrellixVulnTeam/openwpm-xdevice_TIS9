@@ -1,7 +1,0 @@
-index,name,seq
-0,task,2028969129
-1,http_requests,3785
-2,http_redirects,751
-3,http_responses,2510
-4,dns_responses,3035
-5,callstacks,4051

@@ -66,7 +66,7 @@
     
   "Storage_File": "storage.js",
   "ublock_origin": false,
-  "Ad_Sites": ["yahoo.com","cnbc.com","nymag.com","newyorker.com","vox.com"],
+  "Ad_Sites": ["bleedinggreennation.com","cagesideseats.com","theringer.com","sbnation.com","mmafighting.com"],
   "Intent": "Intent",
   "Intent_Sites": ["cheapfareguru.com/book/show.php?s=622b03d7430aae9a&e=145a25135dfa6034","google.com/travel/flights/search?tfs=CBwQAhoqagwIAhIIL20vMHQwbjUSCjIwMjEtMDQtMjJyDggDEgovbS8wMzBxYjN0GipqDggDEgovbS8wMzBxYjN0EgoyMDIxLTA0LTI2cgwIAhIIL20vMHQwbjVwAYIBCwj___________8BQAFIAZgBAQ"],
   "save_all_content": false,

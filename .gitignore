@@ -7,3 +7,6 @@ datadir/openwpm.log
 datadir/profile.tar.gz
 run1_datadir/
 plyvelenv/
+data/
+!data/files/
+tables/

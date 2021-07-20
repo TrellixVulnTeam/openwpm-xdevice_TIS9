@@ -4,7 +4,10 @@ import os
 import csv
 
 hashes = []
-with open("../tables/run2/tables/http_responses.csv","r") as file:
+p = "../tables/run3/tables3/http_responses.csv"
+p2= "../tables/run3/tables3/Hashes.txt"
+
+with open(p,"r") as file:
 	reader = csv.reader(file,delimiter=",")
 
 	for line in reader:
@@ -12,7 +15,7 @@ with open("../tables/run2/tables/http_responses.csv","r") as file:
 			hashes.append(line[19])
 
 
-with open("../tables/run2/tables/Hashes.txt","w") as file:
+with open(p2,"w") as file:
 
 	for item in hashes:
 		file.write(item)

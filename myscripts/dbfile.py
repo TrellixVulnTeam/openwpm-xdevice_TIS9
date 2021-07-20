@@ -3,21 +3,23 @@ import sqlite3
 import os
 import pandas as pd
 
-def to_csv(path,path2):
-	if(os.path.exists(path+'/2crawl-data.sqlite') == False):
+def to_csv(path,path2,m):
+	if(os.path.exists(path+'/{}crawl-data.sqlite'.format(m)) == False):
 		return -1
-	if(os.path.exists(path2+'/tables') == False):
-		os.mkdir(path2+'/tables')
-	db = sqlite3.connect(path+'/2crawl-data.sqlite')
+	if(os.path.exists(path2+'/tables'+m) == False):
+		os.mkdir(path2+'/tables'+m)
+	db = sqlite3.connect(path+'/{}crawl-data.sqlite'.format(m))
 	cursor = db.cursor()
 	cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
 	tables = cursor.fetchall()
 	for table_name in tables:
 		table_name = table_name[0]
 		table = pd.read_sql_query("SELECT * from %s" % table_name, db)
-		table.to_csv(path2+'/tables/'+table_name + '.csv', index_label='index', encoding='utf-8')
+		table.to_csv(path2+'/tables'+m+'/'+table_name + '.csv', index_label='index', encoding='utf-8')
 	cursor.close()
 	db.close()
 	return 1
 
-to_csv("../datadir/","../tables/run2/tables/")
+
+#to_csv("../data/run3/datadir/","../tables/run3/",'1')
+to_csv("../data/run3/datadir/","../tables/run3/",'3')
