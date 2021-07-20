@@ -72,9 +72,9 @@ browser_params.bot_mitigation = True
 browser_params.custom_params["mode"] = mode
 browser_params.custom_params["path"] = str(browser_params.profile_archive_dir)
 browser_params.custom_params['mobile'] = False
-browser_params.custom_params['ip']     = "104.155.145.220:8888"
 browser_params.custom_params["ip"] = None
-if mode == '1':
+
+if mode == '2':
     browser_params.save_content = False
 else:
     browser_params.custom_params['mobile'] = True
@@ -82,10 +82,14 @@ else:
 if not int(proxy):
     print("No Proxy")
     browser_params.custom_params["ip"] = None
-    
+
+if mode == '1':
+    browser_params.profile_archive_dir = None
+
 path = browser_params.profile_archive_dir
-if((not os.path.exists(os.path.join(path,"profile.tar.gz")))):
+if(path == None or (not os.path.exists(os.path.join(path,"profile.tar.gz")))):
 	browser_params.seed_tar = None
+
 
 # memory_watchdog and process_watchdog are useful for large scale cloud crawls.
 # Please refer to docs/Configuration.md#platform-configuration-options for more information
@@ -95,12 +99,12 @@ if((not os.path.exists(os.path.join(path,"profile.tar.gz")))):
 browser_params = [browser_params]
 #sites = ["https://whatsmyip.com/"] + sites
 
-if(mode == '1'):
+if(mode == '2'):
 # Commands time out by default after 60 seconds
     with TaskManager(
         manager_params,
         browser_params,
-        SQLiteStorageProvider(Path("./datadir/1crawl-data.sqlite")),
+        SQLiteStorageProvider(Path("./datadir/2crawl-data.sqlite")),
         None,
     ) as manager:
         # Visits the sites
@@ -136,12 +140,12 @@ if(mode == '1'):
 
 
 # Commands time out by default after 60 seconds
-if(mode == '2'):
+if(mode == '1' or mode == '3'):
     with TaskManager(
         manager_params,
         browser_params,
-        SQLiteStorageProvider(Path("./datadir/2crawl-data.sqlite")),
-        LevelDbProvider(Path("./datadir/leveldb")),
+        SQLiteStorageProvider(Path("./datadir/{}crawl-data.sqlite".format(str(mode)))),
+        LevelDbProvider(Path("./datadir/leveldb{}".format(str(mode)))),
     ) as manager:
         # Visits the sites
         for index, site in enumerate(Ad_Sites):
@@ -164,13 +168,16 @@ if(mode == '2'):
             # Scroll down
             command_sequence.append_command(ScrollDown(), timeout=300)
 
+            #Evidence
+            command_sequence.append_command(SaveScreenshotCommand(suffix=mode+str(index)),timeout=100)
+
             # Scroll up
             command_sequence.append_command(ScrollUp(), timeout=300)
-            
+
             # Get HB Ad
-            command_sequence.append_command(GetHBJson(n = index), timeout=600)
+            command_sequence.append_command(GetHBJson(n = index, m = mode), timeout=600)
             
             # Get HB Images
-            command_sequence.append_command(GetHBAds(n = index), timeout=600)
+            command_sequence.append_command(GetHBAds(n = index, m = mode), timeout=600)
             
             manager.execute_command_sequence(command_sequence)

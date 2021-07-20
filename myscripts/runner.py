@@ -4,55 +4,44 @@ import multiprocessing
 import time
 import subprocess
 
+
+def runfile(filename,passw):
+
+    os.system('echo {} | sudo -S {}'.format(passw,filename))    
+    return
+
+
+def rundemo(n,m):
+    
+    os.chdir("..")
+    cmd = ['python','demo.py','config/browser_params.json',n,m]
+    process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+    try:
+        oput,err = process.communicate(timeout=15000)
+    except Exception as e:
+        print(str(e))
+
+    os.chdir("myscripts")
+    with open('../datadir/done{}.txt'.format(m),'w') as file:
+        try:
+            file.write(oput.decode("utf-8"))
+        except:
+            file.write(str(oput))
+    with open('../datadir/errors{}.txt'.format(m),'w') as file:
+        try:
+            file.write(err.decode("utf-8"))
+        except:
+            file.write(str(err))
+
+
 ################ Desktop Version ##################
-
-os.chdir("..")
-
-cmd = ['python','demo.py','config/browser_params.json','1','1']
-process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-try:
-    oput,err = process.communicate(timeout=15000)
-except Exception as e:
-    print(str(e))
-
-os.chdir("myscripts")
-with open('../datadir/done1.txt','w') as file:
-    try:
-        file.write(oput.decode("utf-8"))
-    except:
-        file.write(str(oput))
-with open('../datadir/errors1.txt','w') as file:
-    try:
-        file.write(err.decode("utf-8"))
-    except:
-        file.write(str(err))
-
+rundemo('2','1')
 
 ################ Sleep 2 Hours  ###################
 print("Marinating Profile")
 time.sleep(60*60*2)
 
 ################ Mobile Version ###################
-
-sudopass = "C.ROnaldo123"
-os.system('echo {} | sudo -S ./fontchanger.sh'.format(sudopass))
-os.chdir("..")
-
-cmd = ['python','demo.py','config/browser_params.json','2','1']
-process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-try:
-    oput,err = process.communicate(timeout=15000)
-except Exception as e:
-    print(str(e))
-
-os.chdir("myscripts")
-with open('../datadir/done2.txt','w') as file:
-    try:
-        file.write(oput.decode("utf-8"))
-    except:
-        file.write(str(oput))
-with open('../datadir/errors2.txt','w') as file:
-    try:
-        file.write(err.decode("utf-8"))
-    except:
-        file.write(str(err))
+runfile('./fontchanger.sh',"C.ROnaldo123")
+rundemo('3','1')
+runfile('./fontreverter.sh',"C.ROnaldo123")

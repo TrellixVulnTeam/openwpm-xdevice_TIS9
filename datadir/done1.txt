@@ -1,8 +1,9 @@
-browser_manager      - INFO     - BROWSER 2316185078: Launching browser...
+browser_manager      - INFO     - BROWSER 3958619535: Launching browser...
+deploy_firefox       - INFO     - BROWSER 3958619535: Loading initial browser profile from: /home/maazbinmusa/Desktop/openwpm-xdevice/datadir/profile.tar.gz
 storage_controller   - INFO     - Awaiting all tasks for visit_id -1
 task_manager         - INFO     - 
 
-OpenWPM Version: b'2254e4de'
+OpenWPM Version: b'79d869ba'
 Firefox Version: b'89.0'
 
 ========== Manager Configuration ==========
@@ -12,7 +13,7 @@ Firefox Version: b'89.0'
   "log_path": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir/openwpm.log",
   "logger_address": [
     "127.0.0.1",
-    44403
+    34445
   ],
   "memory_watchdog": false,
   "num_browsers": 1,
@@ -21,7 +22,7 @@ Firefox Version: b'89.0'
   "source_dump_path": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir/sources",
   "storage_controller_address": [
     "127.0.0.1",
-    33417
+    40403
   ],
   "testing": false
 }
@@ -51,332 +52,147 @@ Keys:
   "tracking_protection": 19
 }
 
-         0  1     2        3     4     5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              6         7     8      9     10    11    12                             13    14    15    16    17     18      19
-----------  ----  -------  ----  ----  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  ----  -----  ----  ----  ----  -----------------------------  ----  ----  ----  ----  -----  ------  -----
-2316185078  True  firefox  True  True  {'Persona_Path': 'data/personas', 'profile_tar': './datadir', 'Persona_Name': 'Travel.json', 'Persona_Numb': 1, 'Browser_Config': 'config/browser_params.json', 'Manager_Config': 'config/manager_params.json', 'Browser_Config_Def': 'default_browser_params.json', 'Manager_Config_Def': 'default_manager_params.json', 'Number_of_Browsers': 1, 'Sites': ['nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003', 'nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001', 'nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100', 'nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100', 'nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500', 'nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101', 'nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003', 'nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111', 'nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100', 'nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100', 'nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001', 'nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100', 'nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300', 'nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101', 'nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300', 'nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003', 'nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001', 'nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100', 'nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100', 'nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500', 'nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101', 'nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003', 'nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111', 'nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100', 'nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100', 'nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001', 'nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100', 'nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300', 'nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101', 'nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300'], 'Storage_File': 'storage.js', 'ublock_origin': False, 'Ad_Sites': ['bleedinggreennation.com', 'cagesideseats.com', 'theringer.com', 'sbnation.com', 'mmafighting.com'], 'Intent': 'Intent', 'Intent_Sites': ['cheapfareguru.com/book/show.php?s=622b03d7430aae9a&e=145a25135dfa6034', 'google.com/travel/flights/search?tfs=CBwQAhoqagwIAhIIL20vMHQwbjUSCjIwMjEtMDQtMjJyDggDEgovbS8wMzBxYjN0GipqDggDEgovbS8wMzBxYjN0EgoyMDIxLTA0LTI2cgwIAhIIL20vMHQwbjVwAYIBCwj___________8BQAFIAZgBAQ'], 'save_all_content': False, 'ip': None, 'mode': '1', 'path': 'datadir', 'mobile': False}  headless  True  False  True  True  True  ['collection_fingerprinting']  True  {}                False  always  False
+         0  1     2        3     4     5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           6         7     8      9     10    11    12                             13    14    15    16    17                                                                                                                                                                             18      19
+----------  ----  -------  ----  ----  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  ----  -----  ----  ----  ----  -----------------------------  ----  ----  ----  ----  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ------  -----
+3958619535  True  firefox  True  True  {'Persona_Path': 'data/personas', 'profile_tar': './datadir', 'Persona_Name': 'Travel.json', 'Persona_Numb': 1, 'Browser_Config': 'config/browser_params.json', 'Manager_Config': 'config/manager_params.json', 'Browser_Config_Def': 'default_browser_params.json', 'Manager_Config_Def': 'default_manager_params.json', 'Number_of_Browsers': 1, 'Sites': ['nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003', 'nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001', 'nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100', 'nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100', 'nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500', 'nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101', 'nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003', 'nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111', 'nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100', 'nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100', 'nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001', 'nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100', 'nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300', 'nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101', 'nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300', 'nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003', 'nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001', 'nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100', 'nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100', 'nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500', 'nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101', 'nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003', 'nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111', 'nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100', 'nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100', 'nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001', 'nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100', 'nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300', 'nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101', 'nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300'], 'Storage_File': 'storage.js', 'ublock_origin': False, 'Ad_Sites': ['yahoo.com', 'cnbc.com', 'nymag.com', 'newyorker.com', 'vox.com'], 'Intent': 'Intent', 'Intent_Sites': ['cheapfareguru.com/book/show.php?s=622b03d7430aae9a&e=145a25135dfa6034', 'google.com/travel/flights/search?tfs=CBwQAhoqagwIAhIIL20vMHQwbjUSCjIwMjEtMDQtMjJyDggDEgovbS8wMzBxYjN0GipqDggDEgovbS8wMzBxYjN0EgoyMDIxLTA0LTI2cgwIAhIIL20vMHQwbjVwAYIBCwj___________8BQAFIAZgBAQ'], 'save_all_content': False, 'ip': None, 'mode': '3', 'path': 'datadir', 'mobile': True}  headless  True  False  True  True  True  ['collection_fingerprinting']  True  {}                beacon,csp_report,font,image,imageset,main_frame,media,object,object_subrequest,ping,script,stylesheet,sub_frame,web_manifest,websocket,xbl,xml_dtd,xmlhttprequest,xslt,other  always  False
 
 ========== JS Instrument Settings ==========
-{"2316185078":[{"object":"window['ScriptProcessorNode'].prototype","instrumentedName":"ScriptProcessorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['GainNode'].prototype","instrumentedName":"GainNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AnalyserNode'].prototype","instrumentedName":"AnalyserNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OscillatorNode'].prototype","instrumentedName":"OscillatorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OfflineAudioContext'].prototype","instrumentedName":"OfflineAudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AudioContext'].prototype","instrumentedName":"AudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['RTCPeerConnection'].prototype","instrumentedName":"RTCPeerConnection","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['HTMLCanvasElement'].prototype","instrumentedName":"HTMLCanvasElement","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['Storage'].prototype","instrumentedName":"Storage","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.navigator","instrumentedName":"window.navigator","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['CanvasRenderingContext2D'].prototype","instrumentedName":"CanvasRenderingContext2D","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":["globalAlpha","translate","drawImage","transform","quadraticCurveTo","moveTo","closePath","setTransform","beginPath","canvas","lineTo","clearRect"],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window","instrumentedName":"window","logSettings":{"propertiesToInstrument":["localStorage","name","sessionStorage"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.document","instrumentedName":"window.document","logSettings":{"propertiesToInstrument":["cookie","referrer"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":true,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.screen","instrumentedName":"window.screen","logSettings":{"propertiesToInstrument":["pixelDepth","colorDepth"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}}]}
+{"3958619535":[{"object":"window['ScriptProcessorNode'].prototype","instrumentedName":"ScriptProcessorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['GainNode'].prototype","instrumentedName":"GainNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AnalyserNode'].prototype","instrumentedName":"AnalyserNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OscillatorNode'].prototype","instrumentedName":"OscillatorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OfflineAudioContext'].prototype","instrumentedName":"OfflineAudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AudioContext'].prototype","instrumentedName":"AudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['RTCPeerConnection'].prototype","instrumentedName":"RTCPeerConnection","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['HTMLCanvasElement'].prototype","instrumentedName":"HTMLCanvasElement","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['Storage'].prototype","instrumentedName":"Storage","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.navigator","instrumentedName":"window.navigator","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['CanvasRenderingContext2D'].prototype","instrumentedName":"CanvasRenderingContext2D","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":["quadraticCurveTo","lineTo","translate","clearRect","globalAlpha","canvas","closePath","moveTo","beginPath","setTransform","transform","drawImage"],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window","instrumentedName":"window","logSettings":{"propertiesToInstrument":["name","localStorage","sessionStorage"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.document","instrumentedName":"window.document","logSettings":{"propertiesToInstrument":["referrer","cookie"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":true,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.screen","instrumentedName":"window.screen","logSettings":{"propertiesToInstrument":["pixelDepth","colorDepth"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}}]}
 
 ========== Input profile tar files ==========
-  No profile tar files specified
+{
+  "3958619535": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir/profile.tar.gz"
+}
 
 ========== Output (archive) profile dirs ==========
 {
-  "2316185078": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir"
+  "3958619535": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir"
 }
 
 
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 6349171831561305 on browser with id 2316185078
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4876580712160789 on browser with id 3958619535
 Browser IP: None
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003,30)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GetCommand(http://www.yahoo.com,30)
 storage_controller   - INFO     - Terminating handler, because the underlying socket closed
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(0)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 6349171831561305 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 6349171831561305
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 8358494167511653 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(1)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 8358494167511653 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 8358494167511653
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5291906925767201 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(2)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5291906925767201 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 5291906925767201
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 1138652359690464 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(3)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 1138652359690464 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 1138652359690464
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 1259249476075912 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(4)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 1259249476075912 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 1259249476075912
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 3585141613997317 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(5)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 3585141613997317 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 3585141613997317
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 1461797984996072 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(6)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 1461797984996072 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 1461797984996072
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 8655841763949918 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(7)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 8655841763949918 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 8655841763949918
-CommandSequence for http://www.nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111 ran successfully
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4281771474678965 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(8)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4281771474678965 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 4281771474678965
-CommandSequence for http://www.nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100 ran successfully
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5488385581751786 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(9)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5488385581751786 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 5488385581751786
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2389102729028153 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(10)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2389102729028153 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 2389102729028153
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 8313549935480072 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(11)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 8313549935480072 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 8313549935480072
-CommandSequence for http://www.nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100 ran successfully
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2757508807364041 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(12)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2757508807364041 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 2757508807364041
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5507008701746858 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(13)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5507008701746858 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 5507008701746858
-CommandSequence for http://www.nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101 ran successfully
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2893913482719368 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(14)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2893913482719368 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 2893913482719368
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7993266907118380 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(15)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7993266907118380 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 7993266907118380
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 1253825813429827 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(16)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 1253825813429827 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 1253825813429827
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5929710570331981 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(17)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5929710570331981 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 5929710570331981
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4860771184095701 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(18)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4860771184095701 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 4860771184095701
-CommandSequence for http://www.nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100 ran successfully
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2384715927628951 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(19)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2384715927628951 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 2384715927628951
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7788544279460274 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(20)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7788544279460274 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 7788544279460274
-CommandSequence for http://www.nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101 ran successfully
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 1733094509913967 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(21)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 1733094509913967 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 1733094509913967
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 6679083976171228 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(22)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 6679083976171228 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 6679083976171228
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5011660252672424 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(23)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5011660252672424 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 5011660252672424
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 318860704299071 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(24)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 318860704299071 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 318860704299071
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 165849974364438 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(25)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 165849974364438 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 165849974364438
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 373043488822590 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(26)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 373043488822590 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 373043488822590
-CommandSequence for http://www.nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100 ran successfully
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5321145683626023 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(27)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-browser_manager      - INFO     - BROWSER 2316185078: Timeout while executing command, FinalizeCommand(5), killing browser manager
-storage_controller   - INFO     - Awaiting all tasks for visit_id 5321145683626023
-sql_provider         - WARNING  - Visit with visit_id 5321145683626023 got interrupted
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5321145683626023 on browser with id 2316185078
-storage_controller   - ERROR    - There are no records to be stored for visit_id 5321145683626023, skipping...
-browser_manager      - INFO     - BROWSER 2316185078: BrowserManager restart initiated. Clear profile? False
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: SaveScreenshotCommand(30)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHeaderBiddingAd
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHBiddingImages
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4876580712160789 on browser with id 3958619535
+storage_controller   - INFO     - Awaiting all tasks for visit_id 4876580712160789
+CommandSequence for http://www.yahoo.com ran successfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 6388799797636349 on browser with id 3958619535
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GetCommand(http://www.cnbc.com,30)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: SaveScreenshotCommand(31)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHeaderBiddingAd
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHBiddingImages
+{}
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 6388799797636349 on browser with id 3958619535
+storage_controller   - INFO     - Awaiting all tasks for visit_id 6388799797636349
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5716313610157282 on browser with id 3958619535
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GetCommand(http://www.nymag.com,30)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: SaveScreenshotCommand(32)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHeaderBiddingAd
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHBiddingImages
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.cnbc.com ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5716313610157282 on browser with id 3958619535
+storage_controller   - INFO     - Awaiting all tasks for visit_id 5716313610157282
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4630324946371331 on browser with id 3958619535
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GetCommand(http://www.newyorker.com,30)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: SaveScreenshotCommand(33)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHeaderBiddingAd
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHBiddingImages
+{'datadir_1': {'ad_html': '<script type=\\\\\'text/javascript\\\\\'>var adContent = \\\\\'\\\\\';\\\\nadContent += \\\\\'<div id="a-d91191">\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'<!-- AdPlacement : 8a9691380175757044fd70c59ebb005a --><!-- Verizon Media SSP BannerAd DspId:26755, SeatId:154955, DspCrId:EAAYACog9P9I31Qa-08lQ6elR0PWn1uHta6102Nx4ZQui.XboB4yBLhrouM_, CrsCrId:a130cfefe7658d4f0ae39d45ff66cc95691ebd32 --><i\\\\\' + \\\\\'mg src="https://us-east-1-web.ssp.yahoo.com/admax/adEvent.do?tidi=770940579&amp;dcn=8a9691380175757044fd70b6ae290014&amp;posi=1268348&amp;grp=%3F%3F%3F&amp;nl=1626755938359&amp;rts=1626755938202&amp;pix=1&amp;et=1&amp;a=e3f454a95caa44b982fc160a1b92e0c5&amp;m=aXAtMTAtMjItOS02NQ..&amp;p=MC4wMDAwNTE1Nzg&amp;b=MTMyNzE7MTU0OTU1O2FtYXpvbi5jb207Ozs7ZTIzNjFiNjU4MGMzNDViOWI0OTQwZjcxMjgyNzA0OGQ7MTU0OTU1OzE2MjY3NTE4MDA7OzAuMDAwMDQ1Mzg5OzswOw..&amp;uid=1fe0c0pgfcjdc%26b%3D3%26s%3Dot&amp;xdi=R2VuZXJpYyBBbmRyb2lkIE1vYmlsZXw_Pz98MTF8MQ..&amp;xoi=MHxVU0E.&amp;hb=true&amp;type=0&amp;af=2&amp;dety=2&amp;us_privacy=1---" style="display:none;width:1px;height:1px;border:0;" width="1" height="1" alt=""/><iframe id="amznad363910" src="https://aax-us-east.amazon-adsystem.com/e/is/69181f7afe80edd3ac0507484306e4f2/creative?b=IjnQlMyf5IUvt-MmFNYZhBUAAAF6wjW3zQEAAAZBAWDd-6I&w=wONbdcqm0fobIbmrXPfa3RabZiD7cfROMSoIzS0JNWM&bi=NKpPHkJAP66SqrJYH9xkwqZilSJKNIQIHqkfnKLQtzwcf4bzMxmDMFWwqvraaom8ZgSdzb017P4tqArlp0eoVenYbIhWhIY28R7Kqg3IRcnaW0YlNChQYH4wSqaUhPJMGZ53UoE3yhmFCELvTEK0bOo86DBojNdb2dkHdRLbUDykfkegdGDaZMotBhd94B3CwsxhyobO.h1oGaA2FruZFboCTDrJ9NURiE1jeUAGIOyKZlb9K8yuyCGqWe.MW33GhakZXhlovMizbWkTyXyiZjQC9hkT.GaeGS2mQ62x3Sy-G3VRh65jJFZSKkEI1pnLlMoARKPcCwwkFTWeZnT8sgUab3ZS.y3d-n-MiJwCwWhZLispNiD22lDdvLTHkiA7qFLGXC9o7s4JwcZqkX0LX.byVlqYK04iFJjLifNNuGJQ0L6KnJFxFaxK63ALeO8fQJBDvqxXvjYq4xKyeAd6THH5XJSOLF5ZqkcEI3quHGfH2xQHymA2c4TQCmojtuHg2KfHcUAtWIDxpLiUTA1jYpMf-GBZF0rZwnNtRRnBhBzzhmEGZaR1Uk1.sj1v1i3c" width="300" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><scr\\\\\' + \\\\\'ipt type="text/javascript" src="https://service.idsync.analytics.yahoo.com/sp/v0/pixels?pixelIds=58269,55953,55936,55986,57926,55965&referrer=&limit=6&us_privacy=1---&js=1&_origin=1&gdpr=0&euconsent="></scr\\\\\' + \\\\\'ipt><!-- Ads by Verizon Media SSP - Optimized by NEXAGE - Tuesday, July 20, 2021 at 12:38:58 AM Eastern Daylight Time --></div>\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'<scr\\\\\' + \\\\\'ipt src="https://s.yimg.com/cb/af/adfeedback-1.0.105.js"></scr\\\\\' + \\\\\'ipt>\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'<scr\\\\\' + \\\\\'ipt type="text/javascript">\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'if (window.OATH && window.OATH.AdFeedback) {\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'            window.OATH.AdFeedback.init({\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                lang:"en-US",\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                beaconUrl:"https://beap-bc.yahoo.com/af/us?bv=1.0.0&bs=(1abavdfsm(gid$e2361b6580c345b9b4940f712827048d,st$1626755938202000,li$13271,cr$EAAYACog9P9I31Qa-08lQ6elR0PWn1uHta6102Nx4ZQui.XboB4yBLhrouM_^^154955^^26755,dmn$amazon.com,srv$4,exp$1626760738202000,ct$26,v$1.0.0,adv$26755,pbid$57504,seid$0,afv$2.0^^a130cfefe7658d4f0ae39d45ff66cc95691ebd32,pdmn$Newyorker.com,si$295556,adsize$300x250,dtid$2))&al=(${afparams},bucket$tnv_stable)&r=27207",\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                viewId:"a-d91191",\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                deviceTypeId:2,\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                configs: {\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                       templateId: "default",\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                   },\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'            });\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\' }\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'</scr\\\\\' + \\\\\'ipt>\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'<scr\\\\\' + \\\\\'ipt src="https://s.yimg.com/ix/talon-1.0.31.js"></scr\\\\\' + \\\\\'ipt>\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'<scr\\\\\' + \\\\\'ipt type="text/javascript">\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'if (window.OATH && window.OATH.TalonJs) {\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'            window.OATH.TalonJs.init({\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                lang:"en-US",\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                beaconUrl:"https://beap-bc.yahoo.com/tp?bs=(160r6t7uh(sek$e2361b6580c345b9b4940f712827048d,st$1626755938202000,li$13271,cr$EAAYACog9P9I31Qa-08lQ6elR0PWn1uHta6102Nx4ZQui.XboB4yBLhrouM_^^154955^^26755,v$1.0.0,adv$26755,pbid$57504,si$295556,dtid$2))&tp=(${talonjsparams},bucket$tnv_stable)",\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                viewId:"a-d91191",\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                adSystem:"ONE_MOBILE",\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                deviceTypeId:2,\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                publisherId:57504,\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                configs: {\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                       adType:"DISPLAY",\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'                   },\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'            });\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\' }\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\nadContent += \\\\\'</scr\\\\\' + \\\\\'ipt>\\\\\' + \\\\\'\\\\\\\\n\\\\\';\\\\ndocument.write(adContent);</script>', 'urls': [], 'cpm': '0.045389', 'bidder': "'onemobile'", 'originalCurrency': "'USD'", 'pbHg': "'0.04'", 'pbLg': "'0.00'", 'pbCg': "'0.04'", 'pbMg': "'0.00'", 'pbAg': "'0.00'", 'pbDg': "'0.04'", 'currency': "'USD'", 'height': '250', 'size': "'300x250'", 'width': '300', 'mediaType': "'banner'", 'bidderCode': "'onemobile'", 'originalCpm': '0.045389', 'statusMessage': "'Bid available'"}}
+3_3_datadir_1.html
+browser_manager      - ERROR    - BROWSER 3958619535: Crash in driver, restarting browser manager
+Traceback (most recent call last):
+  File "/home/maazbinmusa/Desktop/openwpm-xdevice/custom_command.py", line 359, in cap_images
+    driver.get("file:///"+html_file)
+  File "/home/maazbinmusa/miniconda3/envs/openwpm/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/maazbinmusa/miniconda3/envs/openwpm/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/maazbinmusa/miniconda3/envs/openwpm/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=fileAccessDenied&u=file%3A////home/maazbinmusa/Desktop/openwpm-xdevice/datadir/3_3_datadir_1.html&c=UTF-8&d=The%20file%20at%20//home/maazbinmusa/Desktop/openwpm-xdevice/datadir/3_3_datadir_1.html%20is%20not%20readable.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/maazbinmusa/Desktop/openwpm-xdevice/openwpm/browser_manager.py", line 753, in run
+    command.execute(
+  File "/home/maazbinmusa/Desktop/openwpm-xdevice/custom_command.py", line 233, in execute
+    cap_images(browser_params.custom_params["path"],webdriver,self.n,self.m)
+  File "/home/maazbinmusa/Desktop/openwpm-xdevice/custom_command.py", line 365, in cap_images
+    with open(path+'/{}_{}_{}_error.txt'.format(m,str(n),item_t),'w') as file:
+UnboundLocalError: local variable 'item_t' referenced before assignment
+CommandSequence for http://www.nymag.com ran successfully
+browser_manager      - INFO     - BROWSER 3958619535: Received failure status while executing command: GettingHBiddingImages
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4630324946371331 on browser with id 3958619535
+storage_controller   - INFO     - Awaiting all tasks for visit_id 4630324946371331
+sql_provider         - WARNING  - Visit with visit_id 4630324946371331 got interrupted
+CommandSequence for http://www.newyorker.com ran unsuccessfully
+browser_manager      - INFO     - BROWSER 3958619535: BrowserManager restart initiated. Clear profile? False
 storage_controller   - INFO     - Terminating handler, because the underlying socket closed
-CommandSequence for http://www.nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300 ran unsuccessfully
-browser_manager      - INFO     - BROWSER 2316185078: Launching browser...
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 4932414703023843 on browser with id 2316185078
+browser_manager      - INFO     - BROWSER 3958619535: Launching browser...
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 5187437231328747 on browser with id 3958619535
 Browser IP: None
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(28)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 4932414703023843 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 4932414703023843
-browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 2923037742941942 on browser with id 2316185078
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: InitializeCommand()
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: GetCommand(http://www.nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300,30)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollDown
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: SaveScreenshotCommand(29)
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: ScrollUp
-browser_manager      - INFO     - BROWSER 2316185078: EXECUTING COMMAND: FinalizeCommand(5)
-CommandSequence for http://www.nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101 ran successfully
-browser_manager      - INFO     - Finished working on CommandSequence with visit_id 2923037742941942 on browser with id 2316185078
-storage_controller   - INFO     - Awaiting all tasks for visit_id 2923037742941942
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GetCommand(http://www.vox.com,30)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: SaveScreenshotCommand(34)
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHeaderBiddingAd
+browser_manager      - INFO     - BROWSER 3958619535: EXECUTING COMMAND: GettingHBiddingImages
+3_3_datadir_1.html
+browser_manager      - ERROR    - BROWSER 3958619535: Crash in driver, restarting browser manager
+Traceback (most recent call last):
+  File "/home/maazbinmusa/Desktop/openwpm-xdevice/custom_command.py", line 359, in cap_images
+    driver.get("file:///"+html_file)
+  File "/home/maazbinmusa/miniconda3/envs/openwpm/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/maazbinmusa/miniconda3/envs/openwpm/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/maazbinmusa/miniconda3/envs/openwpm/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=fileAccessDenied&u=file%3A////home/maazbinmusa/Desktop/openwpm-xdevice/datadir/3_3_datadir_1.html&c=UTF-8&d=The%20file%20at%20//home/maazbinmusa/Desktop/openwpm-xdevice/datadir/3_3_datadir_1.html%20is%20not%20readable.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/maazbinmusa/Desktop/openwpm-xdevice/openwpm/browser_manager.py", line 753, in run
+    command.execute(
+  File "/home/maazbinmusa/Desktop/openwpm-xdevice/custom_command.py", line 233, in execute
+    cap_images(browser_params.custom_params["path"],webdriver,self.n,self.m)
+  File "/home/maazbinmusa/Desktop/openwpm-xdevice/custom_command.py", line 365, in cap_images
+    with open(path+'/{}_{}_{}_error.txt'.format(m,str(n),item_t),'w') as file:
+UnboundLocalError: local variable 'item_t' referenced before assignment
+browser_manager      - INFO     - BROWSER 3958619535: Received failure status while executing command: GettingHBiddingImages
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 5187437231328747 on browser with id 3958619535
+storage_controller   - INFO     - Awaiting all tasks for visit_id 5187437231328747
+sql_provider         - WARNING  - Visit with visit_id 5187437231328747 got interrupted
 storage_controller   - INFO     - Terminating handler, because the underlying socket closed
 storage_controller   - INFO     - Terminating handler, because the underlying socket closed
 storage_controller   - INFO     - Received shutdown signal!
-CommandSequence for http://www.nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300 ran successfully
-Shutdown took 130.2491443157196 seconds
+storage_controller   - INFO     - Awaiting all tasks for visit_id 4630324946371331
+sql_provider         - WARNING  - Visit with visit_id 4630324946371331 got interrupted
+storage_controller   - INFO     - Awaiting all tasks for visit_id 5187437231328747
+sql_provider         - WARNING  - Visit with visit_id 5187437231328747 got interrupted
+CommandSequence for http://www.vox.com ran unsuccessfully
+Shutdown took 204.80452418327332 seconds

@@ -1,0 +1,136 @@
+browser_manager      - INFO     - BROWSER 3383755307: Launching browser...
+deploy_firefox       - INFO     - BROWSER 3383755307: Loading initial browser profile from: /home/maazbinmusa/Desktop/openwpm-xdevice/datadir/profile.tar.gz
+storage_controller   - INFO     - Awaiting all tasks for visit_id -1
+task_manager         - INFO     - 
+
+OpenWPM Version: b'79d869ba'
+Firefox Version: b'89.0'
+
+========== Manager Configuration ==========
+{
+  "_failure_limit": null,
+  "data_directory": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir",
+  "log_path": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    46689
+  ],
+  "memory_watchdog": false,
+  "num_browsers": 1,
+  "process_watchdog": false,
+  "screenshot_path": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir/screenshots",
+  "source_dump_path": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir/sources",
+  "storage_controller_address": [
+    "127.0.0.1",
+    33415
+  ],
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "browser_id": 0,
+  "bot_mitigation": 1,
+  "browser": 2,
+  "callstack_instrument": 3,
+  "cookie_instrument": 4,
+  "custom_params": 5,
+  "display_mode": 6,
+  "dns_instrument": 7,
+  "donottrack": 8,
+  "extension_enabled": 9,
+  "http_instrument": 10,
+  "js_instrument": 11,
+  "js_instrument_settings": 12,
+  "navigation_instrument": 13,
+  "prefs": 14,
+  "profile_path": 15,
+  "recovery_tar": 16,
+  "save_content": 17,
+  "tp_cookies": 18,
+  "tracking_protection": 19
+}
+
+         0  1     2        3     4     5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           6         7     8      9     10    11    12                             13    14    15    16    17                                                                                                                                                                             18      19
+----------  ----  -------  ----  ----  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  ----  -----  ----  ----  ----  -----------------------------  ----  ----  ----  ----  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ------  -----
+3383755307  True  firefox  True  True  {'Persona_Path': 'data/personas', 'profile_tar': './datadir', 'Persona_Name': 'Travel.json', 'Persona_Numb': 1, 'Browser_Config': 'config/browser_params.json', 'Manager_Config': 'config/manager_params.json', 'Browser_Config_Def': 'default_browser_params.json', 'Manager_Config_Def': 'default_manager_params.json', 'Number_of_Browsers': 1, 'Sites': ['nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003', 'nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001', 'nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100', 'nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100', 'nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500', 'nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101', 'nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003', 'nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111', 'nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100', 'nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100', 'nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001', 'nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100', 'nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300', 'nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101', 'nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300', 'nike.com/t/space-hippie-01-shoe-14Tq8r/DJ3056-003', 'nike.com/t/free-run-5-mens-running-shoe-mL8SDd/CZ1884-001', 'nike.com/t/lebron-18-low-summer-refresh-basketball-shoe-grSm2X/CV7562-100', 'nike.com/t/air-max-genome-mens-shoe-f4SHr3/CW1648-100', 'nike.com/t/giannis-immortality-basketball-shoe-p9QlJF/DH4470-500', 'nike.com/t/waffle-one-mens-shoe-nBt8QX/DA7995-101', 'nike.com/t/air-vapormax-2021-fk-mens-shoe-NpTfFz/DH4084-003', 'nike.com/t/air-force-1-07-mens-shoe-5QFp5Z/CW2288-111', 'nike.com/t/react-infinity-run-flyknit-2-mens-running-shoe-2dVzmM/DJ5395-100', 'nike.com/t/air-zoom-pegasus-38-mens-road-running-shoe-Lp3tgg/DJ5397-100', 'nike.com/t/zoomx-invincible-run-flyknit-mens-running-shoe-cKzSpj/DJ5450-001', 'nike.com/t/air-zoom-alphafly-next-flyknit-mens-road-racing-shoe-LT77q7/DJ5455-100', 'nike.com/t/kyrie-7-basketball-shoe-nNMZ3b/CQ9326-300', 'nike.com/t/blazer-low-77-vintage-mens-shoe-jsksCM/DA6364-101', 'nike.com/t/air-zoom-alphafly-next-mens-racing-shoe-2FN3N2/CI9925-300'], 'Storage_File': 'storage.js', 'ublock_origin': False, 'Ad_Sites': ['yahoo.com', 'cnbc.com', 'nymag.com', 'newyorker.com', 'vox.com'], 'Intent': 'Intent', 'Intent_Sites': ['cheapfareguru.com/book/show.php?s=622b03d7430aae9a&e=145a25135dfa6034', 'google.com/travel/flights/search?tfs=CBwQAhoqagwIAhIIL20vMHQwbjUSCjIwMjEtMDQtMjJyDggDEgovbS8wMzBxYjN0GipqDggDEgovbS8wMzBxYjN0EgoyMDIxLTA0LTI2cgwIAhIIL20vMHQwbjVwAYIBCwj___________8BQAFIAZgBAQ'], 'save_all_content': False, 'ip': None, 'mode': '3', 'path': 'datadir', 'mobile': True}  headless  True  False  True  True  True  ['collection_fingerprinting']  True  {}                beacon,csp_report,font,image,imageset,main_frame,media,object,object_subrequest,ping,script,stylesheet,sub_frame,web_manifest,websocket,xbl,xml_dtd,xmlhttprequest,xslt,other  always  False
+
+========== JS Instrument Settings ==========
+{"3383755307":[{"object":"window['ScriptProcessorNode'].prototype","instrumentedName":"ScriptProcessorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['GainNode'].prototype","instrumentedName":"GainNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AnalyserNode'].prototype","instrumentedName":"AnalyserNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OscillatorNode'].prototype","instrumentedName":"OscillatorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OfflineAudioContext'].prototype","instrumentedName":"OfflineAudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AudioContext'].prototype","instrumentedName":"AudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['RTCPeerConnection'].prototype","instrumentedName":"RTCPeerConnection","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['HTMLCanvasElement'].prototype","instrumentedName":"HTMLCanvasElement","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['Storage'].prototype","instrumentedName":"Storage","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.navigator","instrumentedName":"window.navigator","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['CanvasRenderingContext2D'].prototype","instrumentedName":"CanvasRenderingContext2D","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":["transform","lineTo","clearRect","canvas","beginPath","globalAlpha","moveTo","drawImage","quadraticCurveTo","translate","setTransform","closePath"],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window","instrumentedName":"window","logSettings":{"propertiesToInstrument":["localStorage","sessionStorage","name"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.document","instrumentedName":"window.document","logSettings":{"propertiesToInstrument":["cookie","referrer"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":true,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.screen","instrumentedName":"window.screen","logSettings":{"propertiesToInstrument":["pixelDepth","colorDepth"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}}]}
+
+========== Input profile tar files ==========
+{
+  "3383755307": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir/profile.tar.gz"
+}
+
+========== Output (archive) profile dirs ==========
+{
+  "3383755307": "/home/maazbinmusa/Desktop/openwpm-xdevice/datadir"
+}
+
+
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 7642459616742871 on browser with id 3383755307
+Browser IP: None
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GetCommand(http://www.yahoo.com,30)
+browser_manager      - INFO     - BROWSER 3383755307: Received neterror connectionFailure while executing command: GetCommand(http://www.yahoo.com,30)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 7642459616742871 on browser with id 3383755307
+storage_controller   - INFO     - Awaiting all tasks for visit_id 7642459616742871
+sql_provider         - WARNING  - Visit with visit_id 7642459616742871 got interrupted
+browser_manager      - INFO     - BROWSER 3383755307: BrowserManager restart initiated. Clear profile? False
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+browser_manager      - INFO     - BROWSER 3383755307: Launching browser...
+CommandSequence for http://www.yahoo.com ran unsuccessfully
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 3906553333482165 on browser with id 3383755307
+Browser IP: None
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GetCommand(http://www.cnbc.com,30)
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: SaveScreenshotCommand(31)
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GettingHeaderBiddingAd
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GettingHBiddingImages
+{}
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: FinalizeCommand(5)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 3906553333482165 on browser with id 3383755307
+storage_controller   - INFO     - Awaiting all tasks for visit_id 3906553333482165
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 8442532765366109 on browser with id 3383755307
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GetCommand(http://www.nymag.com,30)
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: SaveScreenshotCommand(32)
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GettingHeaderBiddingAd
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GettingHBiddingImages
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.cnbc.com ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 8442532765366109 on browser with id 3383755307
+storage_controller   - INFO     - Awaiting all tasks for visit_id 8442532765366109
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 6412798853781728 on browser with id 3383755307
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GetCommand(http://www.newyorker.com,30)
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: ScrollDown
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: SaveScreenshotCommand(33)
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: ScrollUp
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GettingHeaderBiddingAd
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GettingHBiddingImages
+{}
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: FinalizeCommand(5)
+CommandSequence for http://www.nymag.com ran successfully
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 6412798853781728 on browser with id 3383755307
+storage_controller   - INFO     - Awaiting all tasks for visit_id 6412798853781728
+browser_manager      - INFO     - Starting to work on CommandSequence with visit_id 6927911440116705 on browser with id 3383755307
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: InitializeCommand()
+browser_manager      - INFO     - BROWSER 3383755307: EXECUTING COMMAND: GetCommand(http://www.vox.com,30)
+CommandSequence for http://www.newyorker.com ran successfully
+browser_manager      - INFO     - BROWSER 3383755307: Received neterror dnsNotFound while executing command: GetCommand(http://www.vox.com,30)
+browser_manager      - INFO     - Finished working on CommandSequence with visit_id 6927911440116705 on browser with id 3383755307
+storage_controller   - INFO     - Awaiting all tasks for visit_id 6927911440116705
+sql_provider         - WARNING  - Visit with visit_id 6927911440116705 got interrupted
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+storage_controller   - INFO     - Terminating handler, because the underlying socket closed
+storage_controller   - INFO     - Received shutdown signal!
+CommandSequence for http://www.vox.com ran unsuccessfully
+Shutdown took 52.48288297653198 seconds

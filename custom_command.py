@@ -138,9 +138,10 @@ class LinkCountingCommand(BaseCommand):
 class GetHBJson(BaseCommand):
     """This command gets HB ads from the page currently visiting"""
 
-    def __init__(self,n) -> None:
+    def __init__(self,n,m) -> None:
         self.logger = logging.getLogger("openwpm")
         self.n      = n
+        self.m      = m
 
     # While this is not strictly necessary, we use the repr of a command for logging
     # So not having a proper repr will make your logs a lot less useful
@@ -158,11 +159,11 @@ class GetHBJson(BaseCommand):
     ) -> None:
 
         # Sleep so network can gather ads
-        time.sleep(30)
-        getadsfunc(browser_params.custom_params["path"],self.n,webdriver)
+        time.sleep(20)
+        getadsfunc(browser_params.custom_params["path"],self.n,self.m,webdriver)
 
 
-def getadsfunc(path,mode,driver):
+def getadsfunc(path,mode1,mode2,driver):
     
     js = "var output = [];"\
       "function getCPM()"\
@@ -191,7 +192,7 @@ def getadsfunc(path,mode,driver):
     except:
         st = ""
 
-    path = os.path.join(path,"Header_Bidding"+str(mode))
+    path = os.path.join(path,"Header_Bidding"+mode2+str(mode1))
     if(not os.path.exists(path)):
         f = open(path,'w')
         f.close()
@@ -208,9 +209,10 @@ def getadsfunc(path,mode,driver):
 class GetHBAds(BaseCommand):
     """This command gets HB ads from the saved json"""
 
-    def __init__(self,n) -> None:
+    def __init__(self,n,m) -> None:
         self.logger = logging.getLogger("openwpm")
         self.n      = n
+        self.m      = m
 
     # While this is not strictly necessary, we use the repr of a command for logging
     # So not having a proper repr will make your logs a lot less useful
@@ -227,19 +229,19 @@ class GetHBAds(BaseCommand):
         extension_socket: ClientSocket,
     ) -> None:
         
-        extractads(browser_params.custom_params["path"],self.n)
-        cap_images(browser_params.custom_params["path"],webdriver,self.n)
+        extractads(browser_params.custom_params["path"],self.n,self.m)
+        cap_images(browser_params.custom_params["path"],webdriver,self.n,self.m)
         
-def extractads(path,n):
+def extractads(path,n,m):
     res  = {}
     for ssd in os.listdir(path):
-        if('Header_Bidding'+str(n) in ssd):
+        if('Header_Bidding'+str(n)+m in ssd):
             res = process_ad(res,path,ssd)
             print(res)
             for k,v in res.items():
-                with open(path+'/{}.json'.format(str(n)+"_"+k),'w') as file:
+                with open(path+'/{}.json'.format(m+"_"+str(n)+"_"+k),'w') as file:
                     json.dump(v, file, ensure_ascii=False, indent=3)
-                with open(path+'/{}.html'.format(str(n)+"_"+k),'w') as file:
+                with open(path+'/{}.html'.format(m+"_"+str(n)+"_"+k),'w') as file:
                     file.write(v['ad_html'])
             res = {}
 
@@ -345,11 +347,11 @@ def clean_json(data):
        
 
 
-def cap_images(path,driver,n):
+def cap_images(path,driver,n,m):
 
 	for item in os.listdir(path): #for htmls
 		try:
-			if("html" not in item or int(item.split("_")[0]) != n):
+			if("html" not in item or (item.split("_")[0]) != m):
 				continue
 			print(item)
 			html_file = os.path.join(os.getcwd(),path,item)
@@ -357,17 +359,17 @@ def cap_images(path,driver,n):
 			driver.get("file:///"+html_file)
 			time.sleep(3)
 			item_t = item.replace(".html","")
-			driver.save_screenshot(path+"/{}_{}.png".format(str(n),item_t))
+			driver.save_screenshot(path+"/{}_{}_{}.png".format(m,str(n),item_t))
 		
 		except Exception as e:
-			with open(path+'/{}_{}_error.txt'.format(str(n),item_t),'w') as file:
+			with open(path+'/{}_{}_{}_error.txt'.format(m,str(n),item_t),'w') as file:
 				file.write(str(e))
 
 
 	for item in os.listdir(path): #for urls
 
 #		hbno = int(item.split("_")[0])        
-		if("json" not in item or 'RTB' in item or int(item.split("_")[0]) != n):
+		if("json" not in item or 'RTB' in item or (item.split("_")[0]) != m):
 			continue
 		print(item)
 
@@ -388,14 +390,14 @@ def cap_images(path,driver,n):
 					req = urllib.request.Request(url,data=None, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'})
 					page=urllib.request.urlopen(req)
 					item_t = item.replace(".json","")
-					file_name = "/{}_{}_url_{}".format(str(n),item_t,str(index2))
+					file_name = "/{}_{}_{}_url_{}".format(m,str(n),item_t,str(index2))
 					with open(path+"/{}.png".format(file_name),'wb') as f:
 						f.write(page.read())
 					time.sleep(2)
 						
 				except Exception as e:
 					print("Error")
-					with open(path+"/{}_error_{}_url_{}.txt".format(str(n),item_t,str(index2)),'w') as file:
+					with open(path+"/{}_{}_error_{}_url_{}.txt".format(m,str(n),item_t,str(index2)),'w') as file:
 						file.write(str(e))
 				index2 += 1
 

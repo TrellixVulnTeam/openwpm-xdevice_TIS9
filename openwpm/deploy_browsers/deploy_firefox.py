@@ -167,11 +167,11 @@ def deploy_firefox(
 
 
     prefs["network.proxy.type"] = 1
-    prefs["network.proxy.http"] = "104.155.145.220"
+    prefs["network.proxy.http"] = "34.68.48.177"
     prefs["network.proxy.http_port"] = 8888
-    prefs["network.proxy.ftp"] = "104.155.145.220"
+    prefs["network.proxy.ftp"] = "34.68.48.177"
     prefs["network.proxy.ftp_port"] = 8888
-    prefs["network.proxy.ssl"] = "104.155.145.220"
+    prefs["network.proxy.ssl"] = "34.68.48.177"
     prefs["network.proxy.ssl_port"] = 8888
 
     # Write all preferences to the profile's user.js file
