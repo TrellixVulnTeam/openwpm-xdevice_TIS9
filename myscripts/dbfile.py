@@ -7,7 +7,7 @@ def to_csv(path,path2,m):
 	if(os.path.exists(path+'/{}crawl-data.sqlite'.format(m)) == False):
 		return -1
 	if(os.path.exists(path2+'/tables'+m) == False):
-		os.mkdir(path2+'/tables'+m)
+		os.makedirs(path2+'/tables'+m)
 	db = sqlite3.connect(path+'/{}crawl-data.sqlite'.format(m))
 	cursor = db.cursor()
 	cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
@@ -21,5 +21,5 @@ def to_csv(path,path2,m):
 	return 1
 
 
-#to_csv("../data/run3/datadir/","../tables/run3/",'1')
-to_csv("../data/run3/datadir/","../tables/run3/",'3')
+to_csv("../data/runs/run2/","../data/tables/run2/",'1')
+to_csv("../data/runs/run2/","../data/tables/run2/",'3')

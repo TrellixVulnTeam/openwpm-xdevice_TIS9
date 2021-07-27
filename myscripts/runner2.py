@@ -4,8 +4,6 @@ import multiprocessing
 import time
 import subprocess
 
-################ Control Mobile Version ###################
-
 def runfile(filename,passw):
 
     os.system('echo {} | sudo -S {}'.format(passw,filename))    
@@ -23,12 +21,12 @@ def rundemo(n,m):
         print(str(e))
 
     os.chdir("myscripts")
-    with open('../datadir/done{}.txt'.format(m),'w') as file:
+    with open('../datadir/done{}.txt'.format(n),'w') as file:
         try:
             file.write(oput.decode("utf-8"))
         except:
             file.write(str(oput))
-    with open('../datadir/errors{}.txt'.format(m),'w') as file:
+    with open('../datadir/errors{}.txt'.format(n),'w') as file:
         try:
             file.write(err.decode("utf-8"))
         except:
@@ -40,17 +38,17 @@ runfile('./fontchanger.sh',"C.ROnaldo123")
 rundemo('1','1')
 
 ################ Sleep 5 minutes  ###################
+runfile('./fontreverter.sh',"C.ROnaldo123")
 print("Sleeping for 5 mintues")
 time.sleep(60*5)
 
 
 ################ Desktop Version ##################
-runfile('./fontreverter.sh',"C.ROnaldo123")
 rundemo('2','1')
 
 ################ Sleep 2 Hours  ###################
 print("Marinating Profile")
-time.sleep(60*60*2)
+time.sleep(60*60*5)
 
 ################ Mobile Version ###################
 runfile('./fontchanger.sh',"C.ROnaldo123")

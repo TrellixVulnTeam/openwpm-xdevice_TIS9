@@ -165,22 +165,22 @@ def deploy_firefox(
         )
         prefs[name] = value
 
-
-    prefs["network.proxy.type"] = 1
-    prefs["network.proxy.http"] = "34.68.48.177"
-    prefs["network.proxy.http_port"] = 8888
-    prefs["network.proxy.ftp"] = "34.68.48.177"
-    prefs["network.proxy.ftp_port"] = 8888
-    prefs["network.proxy.ssl"] = "34.68.48.177"
-    prefs["network.proxy.ssl_port"] = 8888
+    # Add Proxy if needed
+    proxy = browser_params.custom_params['ip']
+    print(proxy)
+    if proxy != None:
+        prefs["network.proxy.type"] = 1
+        prefs["network.proxy.http"] = "35.223.53.190"
+        prefs["network.proxy.http_port"] = 8888
+        prefs["network.proxy.ftp"] = "35.223.53.190"
+        prefs["network.proxy.ftp_port"] = 8888
+        prefs["network.proxy.ssl"] = "35.223.53.190"
+        prefs["network.proxy.ssl_port"] = 8888
+        proxy = None
 
     # Write all preferences to the profile's user.js file
     configure_firefox.save_prefs_to_profile(prefs, browser_profile_path)
 
-
-    # Add Proxy if needed
-    proxy = browser_params.custom_params['ip']
-    print("Browser IP: {}".format(proxy))
     if proxy != None:
         
         firefox_capabilities = webdriver.DesiredCapabilities.FIREFOX

@@ -84,7 +84,7 @@ class ScrollUp(BaseCommand):
         
 def scroll(driver,direction):
         
-    SCROLL_PAUSE_TIME = 1
+    SCROLL_PAUSE_TIME = 2
     SCROLL_COUNT      = 0
     
 
@@ -101,7 +101,7 @@ def scroll(driver,direction):
         time.sleep(SCROLL_PAUSE_TIME)
 
         SCROLL_COUNT += 1
-        if SCROLL_COUNT == 20:
+        if SCROLL_COUNT == 15:
             break
     
     return
@@ -233,19 +233,18 @@ class GetHBAds(BaseCommand):
         cap_images(browser_params.custom_params["path"],webdriver,self.n,self.m)
         
 def extractads(path,n,m):
-    res  = {}
+
     for ssd in os.listdir(path):
-        if('Header_Bidding'+str(n)+m in ssd):
-            res = process_ad(res,path,ssd)
-            print(res)
+        if('Header_Bidding'+m+str(n) in ssd):
+            res = process_ad(path,ssd)
             for k,v in res.items():
                 with open(path+'/{}.json'.format(m+"_"+str(n)+"_"+k),'w') as file:
                     json.dump(v, file, ensure_ascii=False, indent=3)
                 with open(path+'/{}.html'.format(m+"_"+str(n)+"_"+k),'w') as file:
                     file.write(v['ad_html'])
-            res = {}
 
-def process_ad(res,path,ssd):
+def process_ad(path,ssd):
+	res = {}
 	sd = path.split("/")[-1]
 	with open(os.path.join(path,ssd),'r') as ad:
 		ads = []
@@ -345,21 +344,19 @@ def extract_ad_html(_str):
 def clean_json(data):
     return data.replace("u\\'","'").replace("\\'","'").replace("b'\\n","").replace(": True",": 'True'").replace(": False",": 'False'").replace(": None",": 'None'")
        
-
-
 def cap_images(path,driver,n,m):
 
 	for item in os.listdir(path): #for htmls
 		try:
-			if("html" not in item or (item.split("_")[0]) != m):
+			if("html" not in item or (item.split("_")[1]) != str(n)):
 				continue
-			print(item)
 			html_file = os.path.join(os.getcwd(),path,item)
-
-			driver.get("file:///"+html_file)
-			time.sleep(3)
 			item_t = item.replace(".html","")
-			driver.save_screenshot(path+"/{}_{}_{}.png".format(m,str(n),item_t))
+			
+			#commenting this out since it does not work in mobile version
+			#driver.get("file:///"+html_file)
+			#time.sleep(3)
+			#driver.save_screenshot(path+"/{}_{}_{}.png".format(m,str(n),item_t))
 		
 		except Exception as e:
 			with open(path+'/{}_{}_{}_error.txt'.format(m,str(n),item_t),'w') as file:
@@ -368,8 +365,7 @@ def cap_images(path,driver,n,m):
 
 	for item in os.listdir(path): #for urls
 
-#		hbno = int(item.split("_")[0])        
-		if("json" not in item or 'RTB' in item or (item.split("_")[0]) != m):
+		if("json" not in item or (item.split("_")[1]) != str(n)):
 			continue
 		print(item)
 
@@ -385,10 +381,9 @@ def cap_images(path,driver,n,m):
 					url = url.strip("\\")
 				try:
 					site = url
-# 					request = urllib2.Request(site,headers={'User-Agent':'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 firefox/2.0.0.11'})
-# 					page = urllib2.urlopen(request)
+
 					req = urllib.request.Request(url,data=None, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'})
-					page=urllib.request.urlopen(req)
+					page= urllib.request.urlopen(req)
 					item_t = item.replace(".json","")
 					file_name = "/{}_{}_{}_url_{}".format(m,str(n),item_t,str(index2))
 					with open(path+"/{}.png".format(file_name),'wb') as f:
@@ -479,18 +474,8 @@ def to_csv(path):
 
 def RTB_imgs(path,file_name,site):
 	time.sleep(3)
-	try:
-		print()
-		print(site)
-		print()
-#		req = urllib.request.Request(site,data=None, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'})
-#		page=urllib.request.urlopen(req)
-		urllib.request.urlretrieve(site,path+"/{}.png".format(file_name.replace("datadir/","")))
-#		with open(path+"/{}.png".format(file_name),'wb') as f:
-#			f.write(page.read())
-	except Exception as e:
-		print(str(e))
-		print("[Finished with Error RTB_imgs]--------------------------------------")
-		return
-	print("[Finished RTB_imgs]--------------------------------------")
-	return
+	# try:
+	# 	print()
+	# 	print(site)
+	# 	print()
+	# 	urllib.request.urlretrieve(site,path+"/{}.png".format(file_name.replace("datadir/","")))

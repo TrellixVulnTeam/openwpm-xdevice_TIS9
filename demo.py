@@ -72,7 +72,7 @@ browser_params.bot_mitigation = True
 browser_params.custom_params["mode"] = mode
 browser_params.custom_params["path"] = str(browser_params.profile_archive_dir)
 browser_params.custom_params['mobile'] = False
-browser_params.custom_params["ip"] = None
+browser_params.custom_params["ip"] = 1
 
 if mode == '2':
     browser_params.save_content = False
@@ -89,7 +89,6 @@ if mode == '1':
 path = browser_params.profile_archive_dir
 if(path == None or (not os.path.exists(os.path.join(path,"profile.tar.gz")))):
 	browser_params.seed_tar = None
-
 
 # memory_watchdog and process_watchdog are useful for large scale cloud crawls.
 # Please refer to docs/Configuration.md#platform-configuration-options for more information
@@ -123,7 +122,7 @@ if(mode == '2'):
             )
 
             # Start by visiting the page
-            command_sequence.append_command(GetCommand(url=site, sleep=30), timeout=300)
+            command_sequence.append_command(GetCommand(url=site, sleep=60), timeout=300)
 
 
             # Scroll down
@@ -138,9 +137,8 @@ if(mode == '2'):
             # Run commands across all browsers (simple parallelization)
             manager.execute_command_sequence(command_sequence)
 
-
 # Commands time out by default after 60 seconds
-if(mode == '1' or mode == '3'):
+if(int(mode) != 2):
     with TaskManager(
         manager_params,
         browser_params,
@@ -163,7 +161,7 @@ if(mode == '1' or mode == '3'):
             )
 
             # Start by visiting the page
-            command_sequence.append_command(GetCommand(url=site, sleep=30), timeout=600)
+            command_sequence.append_command(GetCommand(url=site, sleep=5), timeout=600)
 
             # Scroll down
             command_sequence.append_command(ScrollDown(), timeout=300)
