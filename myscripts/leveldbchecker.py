@@ -104,11 +104,11 @@ def extractdbimg(p,p2,p3):
     db.close()
 
 
-to_csv("../data/runs/run2","../data/tables/run2",'1')
-hashesfunc("../data/tables/run2/tables1/")
-extractdbimg("../data/runs/run2/leveldb1","../data/tables/run2/tables1/","../data/tables/run2/images1")
+to_csv("../data/runs/run3","../data/tables/run3",'1')
+hashesfunc("../data/tables/run3/tables1/")
+extractdbimg("../data/runs/run3/leveldb1","../data/tables/run3/tables1/","../data/tables/run3/images1")
 #write a function to selenium open the hb ads and save them aagain
 
-to_csv("../data/runs/run2","../data/tables/run2",'3')
-hashesfunc("../data/tables/run2/tables3/")
-extractdbimg("../data/runs/run2/leveldb3","../data/tables/run2/tables3/","../data/tables/run2/images3")
+to_csv("../data/runs/run3","../data/tables/run3",'3')
+hashesfunc("../data/tables/run3/tables3/")
+extractdbimg("../data/runs/run3/leveldb3","../data/tables/run3/tables3/","../data/tables/run3/images3")

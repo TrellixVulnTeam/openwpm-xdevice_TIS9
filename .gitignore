@@ -9,4 +9,4 @@ run1_datadir/
 plyvelenv/
 data/
 !data/files/
-tables/
+tables/*/tables*

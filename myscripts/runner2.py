@@ -33,24 +33,30 @@ def rundemo(n,m):
             file.write(str(err))
 
 
-################ Control Mobile Version ###################
-runfile('./fontchanger.sh',"C.ROnaldo123")
-rundemo('1','1')
+def method1():
+    ################ Control Mobile Version ###################
+    runfile('./fontchanger.sh',"C.ROnaldo123")
+    rundemo('1','1')
 
-################ Sleep 5 minutes  ###################
-runfile('./fontreverter.sh',"C.ROnaldo123")
-print("Sleeping for 5 mintues")
-time.sleep(60*5)
+    ################ Sleep 5 minutes  ###################
+    runfile('./fontreverter.sh',"C.ROnaldo123")
+    print("Sleeping for 5 mintues")
+    time.sleep(60*5)
 
 
-################ Desktop Version ##################
-rundemo('2','1')
+def method2():
+    
+    ################ Desktop Version ##################
+    rundemo('2','1')
 
-################ Sleep 2 Hours  ###################
-print("Marinating Profile")
-time.sleep(60*60*5)
+    ################ Sleep 2 Hours  ###################
+    print("Marinating Profile")
+    time.sleep(60*60*5)
 
-################ Mobile Version ###################
-runfile('./fontchanger.sh',"C.ROnaldo123")
-rundemo('3','1')
-runfile('./fontreverter.sh',"C.ROnaldo123")
+    ################ Mobile Version ###################
+    runfile('./fontchanger.sh',"C.ROnaldo123")
+    rundemo('3','1')
+    runfile('./fontreverter.sh',"C.ROnaldo123")
+
+
+method2()
