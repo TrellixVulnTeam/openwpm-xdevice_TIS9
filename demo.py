@@ -32,6 +32,7 @@ def loadjson(path):
 config_path  = sys.argv[1] ## Config File Path
 mode         = sys.argv[2] ## Flag for Mode ## 1 is Desktop 2 is Mobile
 proxy        = sys.argv[3] ## Flag for proxy on or off
+runnumber    = str(sys.argv[4])
 
 data = loadjson(config_path)
 NUM_BROWSERS = data["Number_of_Browsers"]
@@ -57,11 +58,11 @@ browser_params = [BrowserParams(display_mode="headless") for _ in range(NUM_BROW
 browser_params = copyparams(browser_params[0],t_browser_params)
 manager_params = copyparams(manager_params,t_manager_params)
 
-manager_params.data_directory = Path("./datadir/")
-manager_params.log_path = Path("./datadir/openwpm.log")
+manager_params.data_directory = Path("./datadir{}/".format(runnumber))
+manager_params.log_path = Path("./datadir{}/openwpm.log".format(runnumber))
 
-browser_params.profile_archive_dir = Path("./datadir")
-browser_params.seed_tar = Path("./datadir/profile.tar.gz")
+#browser_params.profile_archive_dir = Path("./datadir")
+#browser_params.seed_tar = Path("./datadir/profile.tar.gz")
 browser_params.dns_instrument = True
 browser_params.callstack_instrument = True
 browser_params.js_instrument = True
@@ -70,25 +71,21 @@ browser_params.cookie_instrument = True
 browser_params.http_instrument = True
 browser_params.bot_mitigation = True
 browser_params.custom_params["mode"] = mode
-browser_params.custom_params["path"] = str(browser_params.profile_archive_dir)
+browser_params.custom_params["path"] = str(Path("./datadir{}".format(runnumber)))
 browser_params.custom_params['mobile'] = False
 browser_params.custom_params["ip"] = 1
 
-if mode == '2':
+if int(mode) == 2:
     browser_params.save_content = False
 else:
     browser_params.custom_params['mobile'] = True
+
     
 if not int(proxy):
     print("No Proxy")
     browser_params.custom_params["ip"] = None
 
-if mode == '1':
-    browser_params.profile_archive_dir = None
 
-path = browser_params.profile_archive_dir
-if(path == None or (not os.path.exists(os.path.join(path,"profile.tar.gz")))):
-	browser_params.seed_tar = None
 
 # memory_watchdog and process_watchdog are useful for large scale cloud crawls.
 # Please refer to docs/Configuration.md#platform-configuration-options for more information
@@ -103,7 +100,7 @@ if(mode == '2'):
     with TaskManager(
         manager_params,
         browser_params,
-        SQLiteStorageProvider(Path("./datadir/2crawl-data.sqlite")),
+        SQLiteStorageProvider(Path("./datadir{}/2crawl-data.sqlite".format(runnumber))),
         None,
     ) as manager:
         # Visits the sites
@@ -142,8 +139,8 @@ if(int(mode) != 2):
     with TaskManager(
         manager_params,
         browser_params,
-        SQLiteStorageProvider(Path("./datadir/{}crawl-data.sqlite".format(str(mode)))),
-        LevelDbProvider(Path("./datadir/leveldb{}".format(str(mode)))),
+        SQLiteStorageProvider(Path("./datadir{}/{}crawl-data.sqlite".format(runnumber,str(mode)))),
+        LevelDbProvider(Path("./datadir{}/leveldb{}".format(runnumber,str(mode)))),
     ) as manager:
         # Visits the sites
         for index, site in enumerate(Ad_Sites):

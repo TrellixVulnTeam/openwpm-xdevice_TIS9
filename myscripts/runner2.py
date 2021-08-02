@@ -10,10 +10,10 @@ def runfile(filename,passw):
     return
 
 
-def rundemo(n,m):
+def rundemo(n,m,o):
     
     os.chdir("..")
-    cmd = ['python','demo.py','config/browser_params.json',n,m]
+    cmd = ['python','demo.py','config/browser_params.json',n,m,str(o)]
     process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     try:
         oput,err = process.communicate(timeout=15000)
@@ -21,22 +21,23 @@ def rundemo(n,m):
         print(str(e))
 
     os.chdir("myscripts")
-    with open('../datadir/done{}.txt'.format(n),'w') as file:
+    with open('../datadir{}/done{}.txt'.format(str(o),n),'w') as file:
         try:
             file.write(oput.decode("utf-8"))
         except:
             file.write(str(oput))
-    with open('../datadir/errors{}.txt'.format(n),'w') as file:
+    with open('../datadir{}/errors{}.txt'.format(str(o),n),'w') as file:
         try:
             file.write(err.decode("utf-8"))
         except:
             file.write(str(err))
 
 
-def method1():
-    ################ Control Mobile Version ###################
+def method1(n,m,o):
+
+    #############    Mobile Version ###################
     runfile('./fontchanger.sh',"C.ROnaldo123")
-    rundemo('1','1')
+    rundemo(n,m,o)
 
     ################ Sleep 5 minutes  ###################
     runfile('./fontreverter.sh',"C.ROnaldo123")
@@ -44,19 +45,17 @@ def method1():
     time.sleep(60*5)
 
 
-def method2():
+def method2(n,m,o):
     
     ################ Desktop Version ##################
-    rundemo('2','1')
+    rundemo(n,m,o)
 
     ################ Sleep 2 Hours  ###################
     print("Marinating Profile")
     time.sleep(60*60*5)
 
-    ################ Mobile Version ###################
-    runfile('./fontchanger.sh',"C.ROnaldo123")
-    rundemo('3','1')
-    runfile('./fontreverter.sh',"C.ROnaldo123")
 
-
-method2()
+for i in range(1,6):
+    method1('1','1',i)
+    method2('2','1',i)
+    method1('3','1',i)

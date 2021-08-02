@@ -91,7 +91,7 @@ def extractdbimg(p,p2,p3):
         for line in lines:
             hashes.append(line.strip('\n').strip('\r'))
     if(os.path.exists(p3) == False):
-        os.mkdir(p3)
+        os.makedirs(p3)
     for index,item in enumerate(hashes):
         img = db.get(str.encode(item))
         
@@ -104,11 +104,23 @@ def extractdbimg(p,p2,p3):
     db.close()
 
 
-to_csv("../data/runs/run3","../data/tables/run3",'1')
-hashesfunc("../data/tables/run3/tables1/")
-extractdbimg("../data/runs/run3/leveldb1","../data/tables/run3/tables1/","../data/tables/run3/images1")
+to_csv("../datadir4","../datadir4",'1')
+hashesfunc("../datadir4/tables1/")
+extractdbimg("../datadir4/leveldb1","../datadir4/tables1/","../datadir4/images/m1/")
 #write a function to selenium open the hb ads and save them aagain
 
-to_csv("../data/runs/run3","../data/tables/run3",'3')
-hashesfunc("../data/tables/run3/tables3/")
-extractdbimg("../data/runs/run3/leveldb3","../data/tables/run3/tables3/","../data/tables/run3/images3")
+
+to_csv("../datadir4","../datadir4",'3')
+hashesfunc("../datadir4/tables3/")
+extractdbimg("../datadir4/leveldb3","../datadir4/tables3/","../datadir4/images/m3/")
+
+
+to_csv("../datadir5","../datadir5",'1')
+hashesfunc("../datadir5/tables1/")
+extractdbimg("../datadir5/leveldb1","../datadir5/tables1/","../datadir5/images/m1/")
+#write a function to selenium open the hb ads and save them aagain
+
+
+to_csv("../datadir5","../datadir5",'3')
+hashesfunc("../datadir5/tables3/")
+extractdbimg("../datadir5/leveldb3","../datadir5/tables3/","../datadir5/images/m3/")

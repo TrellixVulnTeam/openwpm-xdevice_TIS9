@@ -7,5 +7,7 @@ datadir/openwpm.log
 datadir/profile.tar.gz
 run1_datadir/
 plyvelenv/
+!datadir*/
 data/
+datadir*/*
 !datadir*/images/
