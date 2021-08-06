@@ -104,23 +104,20 @@ def extractdbimg(p,p2,p3):
     db.close()
 
 
-to_csv("../datadir4","../datadir4",'1')
-hashesfunc("../datadir4/tables1/")
-extractdbimg("../datadir4/leveldb1","../datadir4/tables1/","../datadir4/images/m1/")
-#write a function to selenium open the hb ads and save them aagain
+
+def runners(i):
+
+    to_csv("../datadir{}".format(i),"../datadir{}".format(i),'1')
+    hashesfunc("../datadir{}/tables1/".format(i))
+    extractdbimg("../datadir{}/leveldb1".format(i),"../datadir{}/tables1/".format(i),"../datadir{}/images/m1/".format(i))
+    #write a function to selenium open the hb ads and save them aagain
 
 
-to_csv("../datadir4","../datadir4",'3')
-hashesfunc("../datadir4/tables3/")
-extractdbimg("../datadir4/leveldb3","../datadir4/tables3/","../datadir4/images/m3/")
+    to_csv("../datadir{}".format(i),"../datadir{}".format(i),'3')
+    hashesfunc("../datadir{}/tables3/".format(i))
+    extractdbimg("../datadir{}/leveldb3".format(i),"../datadir{}/tables3/".format(i),"../datadir{}/images/m3/".format(i))
 
 
-to_csv("../datadir5","../datadir5",'1')
-hashesfunc("../datadir5/tables1/")
-extractdbimg("../datadir5/leveldb1","../datadir5/tables1/","../datadir5/images/m1/")
-#write a function to selenium open the hb ads and save them aagain
 
-
-to_csv("../datadir5","../datadir5",'3')
-hashesfunc("../datadir5/tables3/")
-extractdbimg("../datadir5/leveldb3","../datadir5/tables3/","../datadir5/images/m3/")
+for i in range(2,6):
+    runners(str(i))

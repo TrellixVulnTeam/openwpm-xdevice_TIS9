@@ -1,8 +1,22 @@
+##Run font reverter once files are done
+##Run font reverter once files are done
+##Run font reverter once files are done
+
+
 import os
 import json
 import multiprocessing
 import time
 import subprocess
+
+
+def fontchanger(switch=1):
+
+    if switch:
+        runfile('./fontchanger.sh',"C.ROnaldo123")
+    else:
+        runfile('./fontreverter.sh',"C.ROnaldo123")
+
 
 def runfile(filename,passw):
 
@@ -36,14 +50,7 @@ def rundemo(n,m,o):
 def method1(n,m,o):
 
     #############    Mobile Version ###################
-    runfile('./fontchanger.sh',"C.ROnaldo123")
     rundemo(n,m,o)
-
-    ################ Sleep 5 minutes  ###################
-    runfile('./fontreverter.sh',"C.ROnaldo123")
-    print("Sleeping for 5 mintues")
-    time.sleep(60*5)
-
 
 def method2(n,m,o):
     
@@ -54,8 +61,29 @@ def method2(n,m,o):
     print("Marinating Profile")
     time.sleep(60*60*5)
 
+def runnerfunc1(i):
 
-for i in range(1,6):
     method1('1','1',i)
-    method2('2','1',i)
+
+
+def runnerfunc2(i):
+
+    method1('2','1',i)
+
+
+def runnerfunc3(i):
+
     method1('3','1',i)
+
+
+fontchanger()
+p1 = multiprocessing.Process(target=runnerfunc3, args=(1,))
+p2 = multiprocessing.Process(target=runnerfunc3, args=(2,))
+p3 = multiprocessing.Process(target=runnerfunc3, args=(3,))
+p4 = multiprocessing.Process(target=runnerfunc3, args=(4,))
+p5 = multiprocessing.Process(target=runnerfunc3, args=(5,))
+p1.start()
+p2.start()
+p3.start()
+p4.start()
+p5.start()

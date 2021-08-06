@@ -158,7 +158,7 @@ if(int(mode) != 2):
             )
 
             # Start by visiting the page
-            command_sequence.append_command(GetCommand(url=site, sleep=5), timeout=600)
+            command_sequence.append_command(GetCommand(url=site, sleep=60), timeout=600)
 
             # Scroll down
             command_sequence.append_command(ScrollDown(), timeout=300)
