@@ -52,6 +52,7 @@ def method1(n,m,o):
     #############    Mobile Version ###################
     rundemo(n,m,o)
 
+
 def method2(n,m,o):
     
     ################ Desktop Version ##################
@@ -60,6 +61,7 @@ def method2(n,m,o):
     ################ Sleep 2 Hours  ###################
     print("Marinating Profile")
     time.sleep(60*60*5)
+
 
 def runnerfunc1(i):
 
@@ -76,12 +78,12 @@ def runnerfunc3(i):
     method1('3','1',i)
 
 
-fontchanger()
-p1 = multiprocessing.Process(target=runnerfunc3, args=(1,))
-p2 = multiprocessing.Process(target=runnerfunc3, args=(2,))
-p3 = multiprocessing.Process(target=runnerfunc3, args=(3,))
-p4 = multiprocessing.Process(target=runnerfunc3, args=(4,))
-p5 = multiprocessing.Process(target=runnerfunc3, args=(5,))
+fontchanger(0)
+p1 = multiprocessing.Process(target=runnerfunc3, args=(6,))
+p2 = multiprocessing.Process(target=runnerfunc3, args=(7,))
+p3 = multiprocessing.Process(target=runnerfunc3, args=(8,))
+p4 = multiprocessing.Process(target=runnerfunc3, args=(9,))
+p5 = multiprocessing.Process(target=runnerfunc3, args=(10,))
 p1.start()
 p2.start()
 p3.start()

@@ -119,5 +119,5 @@ def runners(i):
 
 
 
-for i in range(2,6):
+for i in range(6,11):
     runners(str(i))
