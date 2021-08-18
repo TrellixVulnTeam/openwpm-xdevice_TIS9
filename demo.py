@@ -94,6 +94,7 @@ if not int(proxy):
 
 browser_params = [browser_params]
 #sites = ["https://whatsmyip.com/"] + sites
+#Ad_Sites = ["https://whatsmyip.com/"]
 
 if(mode == '2'):
 # Commands time out by default after 60 seconds
@@ -159,16 +160,16 @@ if(int(mode) != 2):
 
             # Start by visiting the page
             command_sequence.append_command(GetCommand(url=site, sleep=60), timeout=600)
-
-            # Scroll down
-            command_sequence.append_command(ScrollDown(), timeout=300)
-
+            
             #Evidence
             command_sequence.append_command(SaveScreenshotCommand(suffix=mode+str(index)),timeout=100)
+            
+            # Scroll down
+            #command_sequence.append_command(ScrollDown(), timeout=300)
 
             # Scroll up
-            command_sequence.append_command(ScrollUp(), timeout=300)
-
+            #command_sequence.append_command(ScrollUp(), timeout=300)
+            
             # Get HB Ad
             command_sequence.append_command(GetHBJson(n = index, m = mode), timeout=600)
             

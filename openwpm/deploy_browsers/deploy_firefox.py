@@ -170,11 +170,11 @@ def deploy_firefox(
     print(proxy)
     if proxy != None:
         prefs["network.proxy.type"] = 1
-        prefs["network.proxy.http"] = "35.203.47.97"
+        prefs["network.proxy.http"] = "34.131.156.139"
         prefs["network.proxy.http_port"] = 8888
-        prefs["network.proxy.ftp"] = "35.203.47.97"
+        prefs["network.proxy.ftp"] = "34.131.156.139"
         prefs["network.proxy.ftp_port"] = 8888
-        prefs["network.proxy.ssl"] = "35.203.47.97"
+        prefs["network.proxy.ssl"] = "34.131.156.139"
         prefs["network.proxy.ssl_port"] = 8888
         proxy = None
 
