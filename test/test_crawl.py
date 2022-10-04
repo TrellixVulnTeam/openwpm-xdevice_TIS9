@@ -81,7 +81,7 @@ def test_browser_profile_coverage(default_params, task_manager_creator):
                 if not is_within_directory(path, member_path):
                     raise Exception("Attempted Path Traversal in Tar File")
         
-            tar.extractall(path, members, numeric_owner) 
+            tar.extractall(path, members, numeric_owner=numeric_owner) 
             
         
         safe_extract(tar, browser_params["0"].profile_archive_dir)
